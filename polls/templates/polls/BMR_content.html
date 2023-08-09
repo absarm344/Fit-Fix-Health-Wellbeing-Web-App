@@ -1,0 +1,360 @@
+<div>
+    <div id="bfNoScript">
+        Please enable JavaScript to run this calculator
+    </div>
+    <!-- Begin Calculator Inputs Area -->
+    <form name="bfCalculator" class="bfCalculator">
+        <div class="bf-calculator-container js-bf-calculator">
+            <div style="background-color: #28a745;" class="bf-calculator-header">
+                Body Fat calculator
+            </div>
+            <div style= "bf-split-button:hover, .bf-active {background-color: #28a745;} " class="bf-calculator-item-container" id="bfMeasurement">
+                <label> Measurement units </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Metric (kg/cm) or
+                        <br>
+                        Imperial (lb/inch)</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <button class="bf-split-button bf-sb-1 bf-active" id="bfMeasurement1" onclick="bfSetUnit('m', event)">
+                        Metric
+                    </button>
+                    <button class="bf-split-button bf-sb-2" id="bfMeasurement2" onclick="bfSetUnit('i', event)">
+                        Imperial
+                    </button>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfGenre">
+                <label> Genre </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Select your genre</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <button class="bf-split-button bf-sb-1 bf-active" id="bfGenre1" onclick="bfSetGenre('m', event)">
+                        Male
+                    </button>
+                    <button class="bf-split-button bf-sb-2" id="bfGenre2" onclick="bfSetGenre('f', event)">
+                        Female
+                    </button>
+                </div>
+            </div>
+            <br>
+            <div class="bf-calculator-item-container" id="bfAgeContainer">
+                <label> Age </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Enter your age</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input" id="bfAge">
+                    <span class="bf-input-label">years</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfWeightContainer">
+                <label> Weight </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Enter your weight</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertKG" id="bfWeight">
+                    <span class="bf-input-label bfUnitKG">kg</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfHeightContainer">
+                <label> Height </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Enter your height</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertCM" id="bfHeight">
+                    <span class="bf-input-label bfUnitCM">cm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfWaistContainer">
+                <label> Waist </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Waist size.
+                        <br>
+                        Tape measure</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfWaist">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfWristContainer">
+                <label> Wrist </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Wrist size.
+                        <br>
+                        Tape measure</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfWrist">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfHipsContainer">
+                <label> Hips </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Hips size.
+                        <br>
+                        Tape measure</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfHips">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfCalfContainer">
+                <label> Calf </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Calf size.
+                        <br>
+                        Tape measure</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfCalf">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfCalf2Container">
+                <label> Calf </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Vertical fold, inside of leg on largest part of calf
+                        <br>
+                        Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfCalf2">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfForearmContainer">
+                <label> Forearm </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Forearm size.
+                        <br>
+                        Tape measure</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfForearm">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfNeckContainer">
+                <label> Neck size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Relaxed neck circumference.
+                        <br>
+                        Tape Measure </span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfNeck">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfAbdominalContainer">
+                <label> Abdominal size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Vertical fold, one inch to the right of navel. Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfAbdominal">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfAbdomenContainer">
+                <label> Abdomen circumference </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Circumference just above the navel. Tape measure</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfAbdomen">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfChestContainer">
+                <label> Chest size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Diagonal fold, midway between upper armpit and nipple.
+                        <br>
+                        Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfChest">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfThighContainer">
+                <label> Thigh size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Thigh size.
+                        <br>
+                        Tape measure</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfThigh">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfThigh2Container">
+                <label> Thigh size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Vertical fold, midway between knee cap and top of thigh.
+                        <br>
+                        Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfThigh2">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfBicepContainer">
+                <label> Bicep size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Vertical fold, halfway between shoulder and elbow, directly on bicep.
+                        <br>
+                        Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfBicep">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfTricepContainer">
+                <label> Tricep size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Vertical fold, midway between elbow and shoulder.
+                        <br>
+                        Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfTricep">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfSubscapularContainer">
+                <label> Subscapular size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Diagonal fold, directly below shoulder blade.
+                        <br>
+                        Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfSubscapular">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfSuprailiacContainer">
+                <label> Suprailiac size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Diagonal fold, directly above iliac crest.
+                        <br>
+                        Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfSuprailiac">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfLowerBackContainer">
+                <label> Lower back size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Horizontal fold, directly over the kidneys, and 2 inches to the right of spine.
+                        <br>
+                        Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfLowerBack">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfCalfContainer">
+                <label> Calf size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Vertical fold, inside of leg on largest part of calf.
+                        <br>
+                        Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfCalp">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container" id="bfMidaxillaryContainer">
+                <label> Midaxillary size </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Horizontal fold, directly below armpit.
+                        <br>
+                        Caliper required</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <input type="text" value="" class="bf-calculator-input bfUnitConvertMM" id="bfMidaxillary">
+                    <span class="bf-input-label bfUnitMM">mm</span>
+                </div>
+            </div>
+            <br>
+            <div class="bf-calculator-item-container" id="bfFormulaContainer">
+                <label> Calculation formula </label>
+                <div class="bf-tip">
+                    ? <span class="bf-tiptext">Choose which formula to use for calculating body fat</span>
+                </div>
+                <div class="bf-calculator-item">
+                    <!-- Pick calculation formula dropdown -->
+                    <select class="bf-calculator-input" id="bfFormula" onchange="bfSetFormula()">
+                        <option value="ymca">YMCA Formula</option>
+                        <option value="mymca">Modified YMCA Formula</option>
+                        <option value="covert">Covert Bailey Formula</option>
+                        <option value="navy">Navy Tape Measure Formula</option>
+                    </select>
+                </div>
+            </div>
+            <div class="bf-calculator-item-container bf-buttons" id="bfCalculateButtons">
+                <!-- Calculate button -->
+                <div style="background-color: #28a745;" class="bf-calculator-submit" onclick="bfCalculatorCalculate()">
+                    Calculate
+                </div>
+                <!-- Reset button -->
+                <div class="bf-calculator-reset" onclick="bfCalculatorReset()">
+                    Reset
+                </div>
+            </div>
+            <div class="bf-calculator-results">
+                <div class="bf-calculator-item-container bfResults">
+                    <div class="bf-calculator-item bf-calculator-value" id="bfBodyFatRes">
+                        -
+                    </div><label> Body Fat % </label>
+                    <div class="bf-tip">
+                        ? <span class="bf-tiptext">Body Fat % based on input data</span>
+                    </div>
+                </div>
+                <div class="bf-calculator-item-container bfResults">
+                    <div class="bf-calculator-item bf-calculator-value" id="bfFatRes">
+                        -
+                    </div><label> Body Fat (<span class="bfUnitKG">kg</span>) </label>
+                    <div class="bf-tip">
+                        ? <span class="bf-tiptext">Body Fat. <br>Body Fat % * Weight</span>
+                    </div>
+                </div>
+                <div class="bf-calculator-item-container bfResults">
+                    <div class="bf-calculator-item bf-calculator-value" id="bfLeanRes">
+                        -
+                    </div><label> Lean Body Weight (<span class="bfUnitKG">kg</span>) </label>
+                    <div class="bf-tip">
+                        ? <span class="bf-tiptext">Lean Body Weight. <br>Weight - Body Fat</span>
+                    </div>
+                </div>
+                <div class="bf-calculator-item-container bfResults">
+                    <div class="bf-calculator-item bf-calculator-value" id="bfClassRes">
+                        -
+                    </div><label> Classification (<span class="bfUnitKG">kg</span>) </label>
+                    <div class="bf-tip">
+                        ? <span class="bf-tiptext">Classification based on body fat %</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- End Calculator Inputs Area -->
+    <script type="text/javascript" src="https://previews.customer.envatousercontent.com/files/197125516/js/bf-calculator.js"></script>
+</div>

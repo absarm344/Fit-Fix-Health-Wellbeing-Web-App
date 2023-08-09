@@ -1,0 +1,47 @@
+{% include "polls/header.html" %}
+
+{% load static %}
+
+ <section class="ration-price">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center section-wrapper">
+                <br>
+                <br>
+                <h3 class="section-title">Special Diet Plans</h3>
+                <p>If you want exclusive contact with our Nutritonists and Gym Trainers or You're looking for the premium perks, then wait no further and buy a plan today..</p>
+            </div><!-- end sdection title -->
+            {% for sub in subs %}
+            <div class="col-lg-4 col-sm-6 col-12 animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                <div class="rationSinglePrice text-center">
+                    <div class="priceHeader">
+                        <svg version="1.1" class="priceshape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 370 219.5" enable-background="new 0 0 370 219.5" xml:space="preserve">
+                        <path class="path-1"  d="M0,20.1V204c0,0,208.9,56,370-45V20.1C370,9,361,0,349.9,0H20.1C9,0,0,9,0,20.1z"/>
+                        <path class="path-2"  d="M0,20.1v141.6h105.6c9.1,0,18.1,0.7,27.1,2.2c33.5,5.6,119.3,19.7,134.3,20.8c18.7,1.3,57.2,1.3,103-26.3V20.1C370,9,361,0,349.9,0H20.1C9,0,0,9,0,20.1z"/>
+                        </svg>
+                        <div class="price-header-content">
+                            <h5>{{sub.title}}</h5>
+                            <h3>Rs. {{sub.price}} </h3>
+                            <span>30 DAYS PLAN</span>
+                        </div>
+                    </div><!-- end price header -->
+                    
+                    <div class="priceBody">
+                        <ul>
+                            <li>{{sub.feature1}} </li>
+                            <li>{{sub.feature2}} </li>
+                            <li>{{sub.feature3}} </li>
+                            <li>{{sub.feature4}} </li>
+                            <li>{{sub.feature5}} </li>
+                        </ul>
+                    </div><!-- end price body -->
+                    <div class="priceFooter">
+                        <a href="{% url 'checkout' %}?sub_title={{ sub.title }}&sub_price={{ sub.price }}"> Perchase Now</a>
+                    </div><!-- end price footer -->
+                </div>
+            </div><!-- end single price -->
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% include "polls/footer2.html" %}

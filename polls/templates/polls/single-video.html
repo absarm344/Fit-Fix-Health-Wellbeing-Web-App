@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ration | Diet & Nutrition Html Template</title>
+    <!-- ==================Start Css Link===================== -->
+    <!-- font awesome css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'polls/assets/fonts/flaticon.css' %}">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/fav.jpg">
+    <!-- plugins css link -->
+    <link rel="stylesheet" href="{% static 'polls/assets/css/plugins.css' %}">
+    <!-- app css -->
+    <link rel="stylesheet" href="{% static 'polls/assets/css/app.css' %}">
+    <!-- ==================End Css Link===================== -->
+
+    <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="page-single">
+
+
+    <!--
+    preloader
+    -->
+    <div class="preloader-wrapper">
+        <div class="preloader-thumb">
+            <img src="{% static 'polls/assets/images/all-img/preloder.gif' %}" alt="">
+        </div>
+    </div>
+
+    <!--
+    Header area start
+    -->
+    {% include "polls/header.html" %}
+
+    <!--
+    page banner section
+    -->
+
+    <section class="page-banner">
+        <div class="container">
+            <div class="row align-items-center justify-content-center page-bn-height">
+                <div class="col-12 text-center">
+                    <h3>single blog video</h3>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb site-breadcumb-1 justify-content-center">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">page</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">single blog video</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+        our experts
+    -->
+    <div class="page-content minus-padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-9">
+                    <article class="single-blog-detials">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://player.vimeo.com/video/117310401?color=01aef0&amp;title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                        </div>
+                        <ul class="post-meta  d-flex justify-content-between mt-4">
+                            <li><a href="#"><i class="icofont">ui_calendar</i> 22/05/2018</a></li>
+                            <li><a href="#"><i class="icofont">comment</i>30</a></li>
+                            <li><a href="#"><i class="icofont">user_alt_4</i> Tonmoy Khan</a></li>
+                        </ul>
+                        <h2>What is a “Healthy” Food? The Answer Will Surprise You</h2>
+                        <p>At Integrative Nutrition, we teach the concept of Primary Food which is everything that nourishes your life perspiciatis unde omnis iste natus error sit voluptatem accusantiums doloremqu seds laudantium, totam rem aperiams, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo how all this mistaken idea of denouncing pleasure and pain was born and I will give you a complete account system.</p>
+                        <blockquote class="blockquote">
+                            <p>
+                                Which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you how mistaken idea of denouncing and praising pain advantage from it.
+
+                            </p>
+                        </blockquote>
+                        <p>to Succeed in an Online Course lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ala. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute or in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proid sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </article>
+                    <hr><!-- end articel section -->
+                    
+                </div><!-- end single blog conetent -->
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- plugin js scripts -->
+    <script src="{% static 'polls/assets/js/plugins.js' %}"></script>
+    <!-- app js -->
+    <script src="{% static 'polls/assets/js/app.js' %}"></script>
+
+
+
+</body>
+
+</html>

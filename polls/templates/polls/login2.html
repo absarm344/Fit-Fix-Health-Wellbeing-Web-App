@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  
+<!-- Mirrored from uigaint.com/demo/html/anfra/login-register-10/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jul 2023 17:31:28 GMT -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Login to FitFix</title>
+    {% load static %}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'polls/authorization/css/bootstrap.min.css' %}">
+    
+    <!-- External Css -->
+    <link rel="stylesheet" href="{% static 'polls/authorization/css/line-awesome.min.css' %}">
+
+    <!-- Custom Css --> 
+    <link rel="stylesheet" href="{% static 'polls/authorization/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'polls/authorization/css/theme-6.css' %}">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    
+
+    <!-- Favicon -->
+    <link rel="stylesheet" href="{% static 'polls/authorization/images/favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'polls/authorization/images/apple-touch-icon.png' %}">
+    <link rel="stylesheet" href="{% static 'polls/authorization/images/icon-72x72.png' %}">
+    <link rel="stylesheet" href="{% static 'polls/authorization/images/icon-114x114.png' %}">
+
+
+  </head>
+  
+  <body>
+    
+    <div class="ugf-bg">
+      <div class="ugf-container-wrap">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-5 p-sm-0">
+              <div class="ugf-container">
+                <div class="logo">
+                  <a href=""><img src="" alt=""></a>
+                </div>
+                <div class="form-wrap">
+                  <h3><span>Welcome back!</span> Please login to your account</h3>
+                  {% if messages %}
+                    {% for message in messages %}
+                      <div class="alert alert-danger">{{ message }}</div>
+                    {% endfor %}
+                  {% endif %}
+                  <form method="POST" action="{% url 'loginSubmit' %}">
+                    {% csrf_token %}
+                    <div class="input-wrap">
+                      <div class="form-group">
+                        <input type="text" name="email" class="form-control" id="inputMail" required>
+                        <label for="inputMail">Email Address</label>
+                        <span class="input-icon"><i class="las la-envelope"></i></span>
+                      </div>
+                      <div class="form-group">
+                        <input type="password" name="password" class="form-control" id="inputPass" required>
+                        <label for="inputPass">Password</label>
+                        <span class="input-icon"><i class="las la-lock"></i></span>
+                      </div>
+                    </div>
+                    <div class="form-group check-flex">
+                      <div class="custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customControlValidation1">
+                        <label class="custom-control-label" for="customControlValidation1">Remember me</label>
+                      </div>
+                        <div class="forget-pass">
+                          <a href="{% url 'forget' %}">Forget password?</a>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Login Now</button>
+                  </form>
+                  <div class="alternet-access">
+                    <p>Don't have an account? <a href="{% url 'signup' %}">&nbsp; Register now!</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+    <script src=" {% static 'polls/authorization/js/jquery.min.js' %}"></script>
+    <script src=" {% static 'polls/authorization/js/popper.min.js' %}"></script>
+    <script src=" {% static 'polls/authorization/js/bootstrap.min.js' %}"></script>
+    <script src=" {% static 'polls/authorization/js/owl.carousel.min.js' %}"></script>
+    <script src=" {% static 'polls/authorization/js/countrySelect.min.js' %}"></script>
+    <script src=" {% static 'polls/authorization/js/custom.js' %}"></script>
+
+  </body>
+
+<!-- Mirrored from uigaint.com/demo/html/anfra/login-register-10/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jul 2023 17:31:29 GMT -->
+</html>

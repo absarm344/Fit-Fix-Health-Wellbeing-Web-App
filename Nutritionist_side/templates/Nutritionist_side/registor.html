@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    
+    
+    <!-- Main css -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'Nutritionist_side/registor/css/style.css' %}">
+    
+    <script src="{% static 'Nutritionist_side/registor/js/main.js' %}"></script>
+    
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="{% static 'Nutritionist_side/img/form-img.jpg' %}" alt="">
+                    <div class="signup-img-content">
+                        <h2>Register now </h2>
+                        <p>Serve for Humanity and Earn!</p>
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form" action=" {% url 'submitform' %}" >
+                        {% csrf_token %}
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="first_name" class="required">First name</label>
+                                    <input type="text" name="first_name" id="first_name" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="last_name" class="required">Last name</label>
+                                    <input type="text" name="last_name" id="last_name" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="company" class="required">Country</label>
+                                    <input type="text" name="company" id="company" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="email" class="required" >Email</label>
+                                    <input type="text" name="email" id="email" value={{user.email}} readonly/>
+                                </div>
+                                <div class="form-input">
+                                    <label for="phone_number" class="required">Phone number</label>
+                                    <input type="text" name="phone_number" id="phone_number" value={{user.phone}} readonly/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="degree" class="required">Degree</label>
+                                    <input type="text" name="degree" id="degree" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="gender" class="required">Gender</label>
+                                    <input type="text" name="gender" id="gender" />
+                                </div>
+                                
+                                <div class="form-input">
+                                    <label for="address" class="required">Address</label>
+                                    <input type="text" name="address" id="address" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="experience">Experience (in years)</label>
+                                    <input type="text" name="experience" id="experience" />
+                                </div>
+                                
+                                
+                                
+                            </div>
+                        </div>
+                       <div class="form-input">
+                                    <label for="blank_name">Rate your skill level</label>
+                                    <input type="text" name="blank_name" id="blank_name" />
+                                </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Submit" class="submit" id="submit" name="submit" />
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    
+    
+    
+    
+    
+    
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

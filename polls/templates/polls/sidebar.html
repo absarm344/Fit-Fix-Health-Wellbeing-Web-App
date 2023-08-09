@@ -1,0 +1,79 @@
+{% load static %}
+<!-- Sidebar -->
+<ul
+class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+id="accordionSidebar"
+>
+<!-- Sidebar - Brand -->
+<a
+  class="sidebar-brand d-flex align-items-center justify-content-center"
+  href="{% url 'index' %}"
+>
+  <div class="sidebar-brand-text mx-3">FitFix</div>
+</a>
+
+<!-- Divider -->
+<hr class="sidebar-divider my-0" />
+
+<!-- Nav Item - Dashboard -->
+<li class="nav-item active">
+  <a class="nav-link" href="/dashboard/">
+    <i class="fas fa-fw fa-tachometer-alt"></i>
+    <span>Dashboard</span></a
+  >
+</li>
+
+<!-- Divider -->
+<hr class="sidebar-divider" />
+<!-- pages -->
+<!-- Nav Item - Availability -->
+<!-- Nav Item - Diet Recommendation -->
+<!--Nav Item - Availability-->
+<!-- Nav Item - History -->
+<!-- Nav Item - Appoinments -->
+<!-- Divider -->
+<!-- Heading -->
+<div class="sidebar-heading">pages</div>
+
+<!-- Nav Item - Diet Recommendation -->
+<li class="nav-item">
+  <a class="nav-link" href="/dietshow/">
+    <i class="fas fa-fw fa-table"></i>
+    <span>Diet Recommendation</span></a
+  >
+</li>
+<!-- Nav Item - Availability -->
+<li class="nav-item">
+  <a class="nav-link" href="{% url 'ourteam' %}">
+    <i class="fas fa-fw fa-table"></i>
+    <span>Book Meeting</span></a
+  >
+</li>
+
+<!-- Nav Item - Appoinments -->
+<li class="nav-item">
+  <a class="nav-link" href="{% url 'index' %}">
+    <i class="fas fa-fw fa-table"></i>
+    <span>Go to web view</span></a
+  >
+</li>
+
+<li class="nav-item">
+  <a class="nav-link" href="{% url 'BMRCalc' %}">
+    <i class="fas fa-fw fa-table"></i>
+    <span>Body Fat Index Calculator</span></a
+  >
+</li>
+
+
+<!-- Divider -->
+<hr class="sidebar-divider d-none d-md-block" />
+
+<!-- Sidebar Toggler (Sidebar) -->
+<div class="text-center d-none d-md-inline">
+  <button class="rounded-circle border-0" id="sidebarToggle"></button>
+</div>
+
+<!-- Sidebar Message -->
+</ul>
+<!-- End of Sidebar -->

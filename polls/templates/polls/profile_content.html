@@ -1,0 +1,114 @@
+{% load static %}
+<div id="wrapper">
+      <div class="page-content">
+        {% if user is not None %}
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 col-md-8">
+            <div class="settings-widget profile-details">
+              <div class="settings-menu p-0">
+                <div class="profile-heading">
+                  <h3>Profile Details</h3>
+                  <p>
+                    You have full control to manage your own account setting.
+                  </p>
+                </div>
+                {% if messages %}
+                    {% for message in messages %}
+                      <div class="alert alert-danger">{{ message }}</div>
+                    {% endfor %}
+                  {% endif %}
+                <form action="{% url 'profileUpdate' %}" method = 'POST' enctype = "multipart/form-data">
+                  {% csrf_token %}
+                <div class="course-group mb-0 d-flex">
+                  <div class="course-group-img d-flex align-items-center">
+                    <a href="#"
+                      ><img
+                        src="../media/{{user.profile_pic}}"
+                        class="img-thumbnail"
+                    /></a>
+                    <div class="course-name">
+                        <label>Profile Pic</label>
+                        <input type="file" class="form-control" name = 'profile_pic'/>
+                      <p>PNG or JPG no bigger than 800px wide and tall.</p>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="checkout-form personal-address add-course-info">
+                  <div class="personal-info-head">
+                    <h4>Personal Details</h4>
+                    <p>Edit your personal information.</p>
+                  </div>
+                  
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label">First Name</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter your first Name"
+                            {% if request.user.first_name %}
+                            value={{user.first_name}} {% endif %}
+                            name = 'first_name'
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label">Last Name</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter your last Name"
+                            {% if request.user.last_name %}
+                            value={{user.last_name}} {% endif %}
+                            name = 'last_name'
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label">Phone</label>
+                          <input
+                            type="number"
+                            class="form-control"
+                            placeholder="Enter your Phone"
+                            {% if request.user.phone %}
+                            value={{user.phone}} {% endif %}
+                            name = 'phone'
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label">Email</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter your Email"
+                            {% if request.user.email %}
+                            value={{user.email}} {% endif %}
+                            name = 'email'
+                            readonly
+                          />
+                        </div>
+                      </div>
+
+                      <div class="update-profile">
+                        <button type="submit" class="btn text-white" style = "background-color: #28a745">
+                          Update Profile
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>

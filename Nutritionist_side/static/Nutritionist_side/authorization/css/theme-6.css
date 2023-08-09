@@ -1,0 +1,407 @@
+.pt30 {
+  padding-top: 30px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.pt40 {
+  padding-top: 40px;
+}
+
+.pb40 {
+  padding-bottom: 40px;
+}
+
+.pt60 {
+  padding-top: 60px;
+}
+
+.pb60 {
+  padding-bottom: 60px;
+}
+
+.pt70 {
+  padding-top: 70px;
+}
+
+.pb70 {
+  padding-bottom: 70px;
+}
+
+.pt80 {
+  padding-top: 80px;
+}
+
+.pb80 {
+  padding-bottom: 80px;
+}
+
+.pt100 {
+  padding-top: 100px;
+}
+
+.pb100 {
+  padding-bottom: 100px;
+}
+
+.pt130 {
+  padding-top: 130px;
+}
+
+.pb130 {
+  padding-bottom: 130px;
+}
+
+.pt150 {
+  padding-top: 150px;
+}
+
+.pb150 {
+  padding-bottom: 150px;
+}
+
+.pt180 {
+  padding-top: 180px;
+}
+
+.pb180 {
+  padding-bottom: 180px;
+}
+
+.pt200 {
+  padding-top: 200px;
+}
+
+.pb200 {
+  padding-bottom: 200px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.ugf-bg {
+  background: url(../images/bg/theme-6-bg.jpg) no-repeat center bottom;
+  background-size: cover;
+}
+
+.ugf-container-wrap {
+  min-height: 100vh;
+}
+
+.ugf-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.ugf-container .logo {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.ugf-container .form-wrap h3 {
+  text-align: center;
+  font-size: 2.6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #1c2437;
+}
+.ugf-container .form-wrap h3 span {
+  font-size: 2rem;
+  display: block;
+  font-weight: 500;
+}
+.ugf-container .form-wrap p {
+  text-align: center;
+  margin-top: 15px;
+}
+.ugf-container .form-wrap form {
+  margin-top: 30px;
+}
+.ugf-container .form-wrap form .input-wrap {
+  -webkit-box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.03);
+}
+.ugf-container .form-wrap form .input-wrap .form-group:first-child {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow: hidden;
+}
+.ugf-container .form-wrap form .input-wrap .form-group:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+}
+.ugf-container .form-wrap form .input-wrap .form-group:last-child .form-control {
+  border-bottom: 0;
+}
+.ugf-container .form-wrap form .form-group {
+  position: relative;
+  margin-bottom: 0;
+}
+.ugf-container .form-wrap form .form-group.check-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+  position: relative;
+}
+.ugf-container .form-wrap form .form-group.check-flex + .btn {
+  margin-top: 10px;
+}
+.ugf-container .form-wrap form .form-group.check-flex .custom-checkbox {
+  margin-bottom: 10px;
+}
+.ugf-container .form-wrap form .form-group.check-flex .custom-checkbox .custom-control-input {
+  height: 18px;
+  width: 18px;
+  border-radius: 3px;
+  border: 3px solid rgba(0, 0, 0, 0.12);
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.ugf-container .form-wrap form .form-group.check-flex .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background: #22d187;
+}
+.ugf-container .form-wrap form .form-group.check-flex .custom-checkbox .custom-control-label {
+  width: auto;
+  text-align: left;
+  position: static;
+  top: auto;
+  left: auto;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+  padding-left: 30px;
+  cursor: default;
+  height: 22px;
+  color: #999da3;
+}
+.ugf-container .form-wrap form .form-group.check-flex .custom-checkbox .custom-control-label:before {
+  top: 2px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 3px;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+.ugf-container .form-wrap form .form-group.check-flex .custom-checkbox .custom-control-label:after {
+  top: 2px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+}
+.ugf-container .form-wrap form .form-group.check-flex .custom-checkbox .custom-control-label a {
+  color: #22d187;
+}
+.ugf-container .form-wrap form .form-group.check-flex a {
+  color: #999da3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.ugf-container .form-wrap form .form-group.check-flex a:hover {
+  color: #22d187;
+}
+.ugf-container .form-wrap form .form-group .form-control {
+  height: 90px;
+  border-radius: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 25px 20px 0 0;
+  padding-left: 80px;
+  font-size: 1.4rem;
+  color: #1c2437;
+  background: #ffffff;
+}
+.ugf-container .form-wrap form .form-group .form-control:focus, .ugf-container .form-wrap form .form-group .form-control:valid {
+  border-bottom: 1px solid #22d187;
+  background: #f9f9f9;
+}
+.ugf-container .form-wrap form .form-group .form-control:focus + label, .ugf-container .form-wrap form .form-group .form-control:valid + label {
+  top: 20px;
+  font-size: 1.2rem;
+  color: #22d187;
+}
+.ugf-container .form-wrap form .form-group label {
+  position: absolute;
+  top: 32px;
+  left: 80px;
+  font-size: 1.4rem;
+  color: #999da3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.ugf-container .form-wrap form .form-group .input-icon {
+  position: absolute;
+  top: 30px;
+  left: 35px;
+}
+.ugf-container .form-wrap form .form-group .input-icon i {
+  font-size: 2.5rem;
+  color: #999da3;
+}
+.ugf-container .form-wrap form .form-group .form-control.has-error {
+  border-color: rgba(255, 62, 88, 0.25);
+}
+.ugf-container .form-wrap form .form-group .form-control.has-error ~ label {
+  color: #ff3e58;
+}
+.ugf-container .form-wrap form .form-group .form-control.has-error ~ .error-msg {
+  position: absolute;
+  top: 32px;
+  right: 20px;
+  color: #ff3e58;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.ugf-container .form-wrap form .btn {
+  height: 85px;
+  width: 100%;
+  display: block;
+  background: #22d187;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(34, 209, 135, 0.25);
+          box-shadow: 0px 10px 20px 0px rgba(34, 209, 135, 0.25);
+}
+.ugf-container .form-wrap .terms {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  font-weight: 400;
+  color: #999da3;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.ugf-container .form-wrap .terms span {
+  display: block;
+}
+.ugf-container .form-wrap .terms a {
+  color: #01b681;
+}
+.ugf-container .form-wrap .alternet-access p {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #1c2437;
+  text-align: center;
+}
+.ugf-container .form-wrap .alternet-access p a {
+  color: #01b681;
+}
+
+.final-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  padding: 150px 15px;
+}
+.final-content h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #1c2437;
+  font-family: "Roboto", sans-serif;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+.final-content p {
+  color: #546274;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  max-width: 350px;
+  margin: 0 auto 40px;
+}
+.final-content .btn {
+  width: 170px;
+  text-align: center;
+  background: #22d187;
+  color: #ffffff;
+  font-size: 1.4rem;
+  height: 68px;
+  padding: 0;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  line-height: 68px;
+}
+
+.final-bg {
+  background: #f8f6f1;
+}
+
+@media all and (max-width: 439px) {
+  .ugf-container .form-wrap {
+    padding: 50px 30px;
+  }
+  .ugf-container .form-wrap form .form-group .form-control {
+    padding-left: 60px;
+  }
+  .ugf-container .form-wrap form .form-group label {
+    left: 60px;
+  }
+  .ugf-container .form-wrap form .form-group .input-icon {
+    left: 20px;
+  }
+
+  .final-content h2 {
+    font-size: 3.2rem;
+  }
+}

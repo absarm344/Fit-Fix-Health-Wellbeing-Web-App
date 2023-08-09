@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+
+    <title> Drop Down Sidebar Menu | CodingLab </title>
+    
+    <!-- Boxiocns CDN Link -->
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+<!--  addind some icons link --> 
+<!--table-wrapper-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+{% load static %}
+    
+    <link rel="stylesheet" href="{% static 'admin_side/list/style.css' %}">
+    <script src="{% static 'admin_side/list/script.js' %}"></script>
+</head>
+
+
+<body>
+  <div class="sidebar" style="background-color: #1d1b31;">
+    <div class="logo-details">
+      <i class=''></i>
+      <span class="logo_name">Fitfix</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="{% url 'allNutReq' %}">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Rquested Niutritions</span>
+        </a>
+        
+      </li>
+       <li>
+        <a href="{% url 'list' %}">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="link_name">All Users</span>
+        </a>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="{% url 'list2' %}">
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">All Meetings</span>
+          </a>
+          
+        </div>
+      </li>
+         
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+
+      
+      <i class='bx bx-menu' ></i>
+      <span class="text">All Meetings</span>
+      <br>
+      <br>
+      
+    </div>
+    <div class="container-xl">
+
+          <br>
+              
+              <table class="table table-striped table-hover table-bordered">
+                  <thead>
+                      <tr>
+                          <th>Number</th>
+                          <th>Name <i class="fa fa-sort"></i></th>
+                          <th>With <i class="fa fa-sort"></i></th>
+                          <th>Day</th>
+                          <th>start Time<i class="fa fa-sort"></i></th>
+                          <th>End Time</th> 
+                          <th>Duration</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    {% for i in item %}
+                      <tr>
+                          <td>{{i.id}}</td>
+                          <td>{{i.name}}</td>
+                          <td>{{i.nutrition}}</td>
+                          <td>{{i.day}}</td>
+                          <td>{{i.start_time}}</td>
+                          <td>{{i.start_time}}</td>
+                          <td>{{i.duration}}</td>
+                      
+                      </tr>
+                      {% endfor %}
+                           
+                  </tbody>
+              </table>
+              
+        
+      </div>  
+  
+  </section>
+
+
+</body>
+</html>

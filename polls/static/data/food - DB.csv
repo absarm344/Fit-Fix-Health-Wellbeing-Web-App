@@ -1,0 +1,587 @@
+﻿id,name,bf,lu,di,cal,fat,pro,sug,imagepath
+1,Paprika Chicken,0,1,1,240,39,8,0.2,Paprika_Chicken.jpg
+2,Sarson ka saag,0,1,1,140,11,2,2,Sarson_Ka_Saag.jpg
+3,Almond Halwa,1,1,0,563,49,15.23,13.43,Almond_Halwa.jpg
+4,VEGETARIAN CAESAR SALAD,1,1,0,219,16,6,4,Vegetarian_Caesar_Salad.jpg
+5,MIXED VEGETABLE CURRY,0,1,1,365,22,11,11,Mixed_Vegetable_Curry.jpg
+6,MUSHROOM MATAR MASALA,0,1,1,161,9,7,8,Mushroom_Matar_Masala.jpg
+7,PALAK PANEER ,0,1,1,365,28,17,3,Palak_Paneer.jpg
+8,DAL FRY,0,1,0,224,9,9,4,Dal_Fry.jpg
+9,Butter Chicken,0,1,1,284,18,18,5.4,Butter_Chicken.jpg
+10,Veg POT TACO PASTA,0,1,0,490,12,19,11,Veg_Pot_Taco_Pasta.jpg
+11,TOMATO PESTO TARTS,1,0,0,240,18,5,1,Tomato_Pesto_Tarts.jpg
+12,CHILLI CHEESE TOAST,1,0,0,427,21,21,6,Chilli_Cheese_Toast.jpg
+13,NUTELLA CROISSANTS,1,0,0,276,18,4,5,Nutella_Croissants.jpg
+14,EGGLESS BANANA CHOCOLATE CAKE,1,0,0,339,16,6,24,Eggless_Banana_Chocolate_Cake.jpg
+15,BERRY OAT SMOOTHIE,1,0,0,298,8,10,25,Berry_Oat_Smoothie.jpg
+16,Onions,0,1,1,40,0.1,1.1,4.2,onion.jpg
+17,Orange,1,0,0,97,0.2,1.5,0,Oranges.jpg
+18,Pasta canned with tomato sauce,0,1,1,71,0.7,2.2,4,Pasta.jpg
+19,Pears,1,0,0,57,0.1,0.4,9.8,Pears.jpg
+20,Peas,0,1,1,81,0.4,5.4,5.7,Peas.jpg
+21,Protein Powder,1,0,0,411,17,46,5.7,Protien_powder.jpg
+22,Pumpkin,0,1,1,18,0.1,0.7,2.1,Pumpkin.jpg
+23,Tuna Salad,0,1,1,187,9.3,16,0,Tuna_Salad.jpg
+24,Tuna Fish,0,0,1,184,6.3,30,0,Tuna_fish.jpg
+25,Peproni Pizza,0,0,1,298,14,12,3.2,Peproni_Pizza.jpg
+26,Cheese Pizza,0,0,1,276,11,11,2.5,Cheese_Pizza.jpg
+27,Fajita Chicken Wrap,0,1,1,418,20,45,3.5,Fajita_Chicken_Wrap.jpg
+28,Vegan Snack Sandwich,0,1,1,503,30,13,4.7,Vegan_Snack_Sandwich.jpg
+29,Fish Burger,0,1,1,411,11,32,4.3,Fish_Burger.jpg
+30,Applesauce Oatmeal Muffins,1,0,0,146,5,3,14,Applesauce_Oatmeal_Muffins.jpg
+31,Puffy Corn Omelet,1,0,0,261,19,9,3.7,Puffy_Corn_Omelet.jpg
+32,Simple Breakfast Burritos,1,0,0,286,13,16,2.6,Simple_Breakfast_Burritos.jpg
+33,Mango Protein Shake,1,1,0,355,33,6,41,Mango_Protein_Shake.jpg
+34,Veggie and Cheese Omelet,1,0,0,479,33,35,5.6,Veggie_and_Cheese_Omelet.jpg
+35,Spinach Scramble,1,0,0,388,25,31,5.3,Spinach_Scramble.jpg
+36,Keto Breakfast Sandwich,1,0,0,458,26,38,0.6,Keto_Breakfast_Sandwich.jpg
+37,Chocolate Peanut Butter Oatmeal,1,0,0,507,15,21,13.7,Chocolate_Peanut_Butter_Oatmeal.jpg
+38,Pear Green Smoothie,1,1,0,110,2,1,18.2,Pear_Green_Smoothie.jpg
+39,Tomato,1,1,0,16,0.2,1.2,2.63,Tomatoes.jpg
+40,Yogurt,1,1,0,60,4,3.1,7,Yogourt.jpg
+41,Brownie,1,0,0,407,6.2,4.4,55,Brownie.jpg
+42,Noodles,0,1,1,108,0.2,1.8,0,Noodles.jpg
+43,Uttapam,0,1,1,188,7.2,4.4,0.24,Uttapam.jpg
+44,Bhaji Pav,0,1,0,151,2.4,9,1.35,Bhaji_Pav.jpg
+45,Dal Makhani,0,1,1,109,8.5,2.1,3.29,Dal_Makhani.jpg
+46,Almonds,1,1,0,164,14,6,1.2,Almonds.jpg
+47,Mushrooms,1,1,0,22,0.3,3.1,2,Marshmallows.jpg
+48,Egg Yolk cooked,1,0,0,196,15,14,0.4,Egg_Yolk_cooked.jpg
+49,Sweet Potatoes cooked,0,1,1,76,0.1,1.4,5.7,Sweet_Potatoes_cooked.jpg
+50,Boiled Potatoes,1,1,1,87,0.1,1.9,0.9,Boiled_Potatoes.jpg
+51,White Rice,0,1,1,360,0.6,6.6,0,White_Rice.jpg
+52,Orange juice,1,0,0,45,0.2,0.7,8.4,Oranges.jpg
+53,Greek yogurt plain,1,0,0,73,1.9,10,3.6,Greek_yogurt_plain.jpg
+54,Oat Bran Cooked,1,0,0,40,0.9,3.2,0,Oat_Bran_Cooked.jpg
+55,Green Tea,1,0,0,1,0,0.2,0,Green_Tea.jpg
+56,Chia seeds,1,0,0,486,31,17,0,Chia_seeds.jpg
+57,Cottage cheese with vegetables,0,1,1,95,4.2,11,0.4,Cottage_cheese_with_vegetables.jpg
+58,Salmon,0,1,1,127,4.4,21,0,Salmon.jpg
+59,Cereals-Corn Flakes,1,0,0,384,0.9,5.9,7.8,Cereals_Corn_Flakes.jpg
+60,Beans,0,1,1,31,0.2,1.8,3.3,Beans.jpg
+61,Lentils,0,1,1,101,0.5,8.8,0,Lentils.jpg
+62,Pasta with corn homemade,0,1,1,126,0.7,2.6,0,Pasta_with_corn_homemade.jpg
+63,Tea,1,0,0,1,0,0,0,Tea.jpg
+64,Apples,1,0,0,52,0.2,0.3,10,apples.jpg
+65,Strawberries,1,0,0,32,0.3,0.7,4.9,Strawberries.jpg
+66,Quninoa,1,1,0,120,1.9,4.4,0.9,Quninoa.jpg
+67,Goat meat,0,1,1,109,2.3,21,0,Goat_meat.jpg
+68,Rabbit meat,0,1,1,114,2.3,22,0,Rabbit_meat.jpg
+69,Chicken Strips,0,0,1,295,15,19,0.3,Chicken_Strips.jpg
+70,Steak Fries,0,1,1,255,13,3.3,0.9,Steak_Fries.jpg
+71,Mexican Rice,0,1,1,195,4.9,3.6,1.4,Mexican_Rice.jpg
+72,Fried Shrimp,0,0,1,319,20,14,0.8,Fried_Shrimp.jpg
+73,Spaghetti and meatballs,0,0,1,170,8.5,7.8,2,Spaghetti_and_meatballs.jpg
+74,Macroni n Cheese ,0,1,1,194,12,6.5,2.8,Macroni_n_Cheese.jpg
+75,Pork cooked,0,0,1,297,21,26,0,Pork_cooked.jpg
+76,Bacon cooked,0,0,1,146,2.8,28,1.2,Bacon_cooked.jpg
+77,Nachos,0,1,1,350,22,4.3,2.2,Nachos.jpg
+78,Chicken Popcorn,0,1,1,351,22,18,0,Chicken_Popcorn.jpg
+79,Turkey cooked,0,1,1,203,10,27,0,Turkey_cooked.jpg
+80,Oyster cooked,0,1,1,159,4,29,0,Oyster_cooked.jpg
+81,Beef sticks,1,0,0,550,50,22,0,Beef_sticks.jpg
+82,Banana Chips,1,0,0,519,34,2.3,35,Banana_Chips.jpg
+83,Honey,1,0,1,304,0,0.3,82,Honey.jpg
+84,Chocolate Icecream,0,0,1,216,11,3.8,25,Chocolate_Icecream.jpg
+85,Vanilla Ice cream,0,0,1,207,11,3.5,21,Vanilla_Ice-cream.jpg
+86,Strawberry Icecream,0,0,1,192,8.4,3.2,0,Strawberry_Icecream.jpg
+87,Marshmallows,0,0,1,318,0.2,1.8,58,Mushrooms.jpg
+88,Chocolate milk,1,0,0,535,30,7.7,52,Chocolate_milk.jpg
+89,Rice Pudding,0,0,1,376,0.1,2.7,0,Rice_Pudding.jpg
+90,Blueberry Yogurt,1,0,0,100,1.2,4.1,19,Blueberry_Yogurt.jpg
+91,Parmesan Egg White Omelet,1,0,0,228,15,18,2.5,Parmesan_Egg_White_Omelet.jpg
+92,Apple Toast,1,0,0,130,4,4,7.1,Apple_Toast.jpg
+93,Yogurt with Avocado and Basil,0,1,0,295,16,25,8,Yogurt with_Avocado_Basil.jpg
+94,Microwaved sweet potato,0,1,1,112,0,2,5.4,Microwaved_sweet_potato.jpg
+95,Banana Egg Pancake,1,0,0,224,10,8,15,Banana_Egg_Pancake.jpg
+96,Tuna with Avocado,0,1,0,295,19,18,7.5,Tuna_with_Avocado.jpg
+97,Lemon Steamed Broccoli,0,0,1,89,4,5,2.9,Lemon_Steamed_Broccoli.jpg
+98,Chicken Wraps,0,1,1,368,12,33,4.5,Chicken_Wraps.jpg
+99,Avocado-egg Toast,1,0,0,208,12,10,2,Avocado_Egg_Toast.jpg
+100,Plum and Greek Yogurt Snack,1,0,0,185,7,20,10,Plum_and_Greek_Yogurt_Snack.jpg
+101,Cream Cheese Turkey Rollups,0,1,0,277,8,14,5.6,Cream_Cheese_Turkey_Rollups.jpg
+102,Pop Corn - Caramel,1,0,1,381,1.4,2,65,Popcorn_Caramel.jpg
+103,Pop Corn,1,0,1,429,9.5,13,0.5,Popcorn.jpg
+104,Dosa,1,1,1,168,3.7,4.5,0.1,Dosa.jpg
+105,Idli,0,1,1,156,1.7,5,0.74,Idli.jpg
+106,Poha,1,0,0,130,1.5,2.6,0.5,Poha.jpg
+107,Chappati,0,1,1,297,7.5,11,2.7,Chappati.jpg
+108,Neilas Cauliflower Eggs,1,0,0,399,24,31,6.3,Neilas_Cauliflower_Eggs.jpg
+109,Coconut Peach Smoothie,1,0,0,379,29,10,15,Coconut_Peach_Smoothie.jpg
+110,Protein Waffles,1,0,0,195,4,15,0.4,Protein_Waffles.jpg
+111,Honey Grapefruit with Banana,1,0,0,116,2,0,22.6,Honey_Grapefruit_with_Banana.jpg
+112,Simple Ham and Lettuce Sandwich,0,1,0,456,30,18,6.2,Simple_Ham_Lettuce_Sandwich.jpg
+113,Corn Flakes,1,0,0,222,10,5,15,Corn_Flakes.jpg
+114,Baby Carrot Banana Smoothie,0,1,0,259,2,36,19,Baby_Carrot_Banana_Smoothie.jpg
+115,Vegetarian Fajita Pasta,0,0,1,443,15,16,2.4,Vegetarian_Fajita_Pasta.jpg
+116,Banana Almond Butter,1,0,0,203,5,9,15.1,Banana_Almond_Butter.jpg
+117,Strawberry French Toast,1,0,0,362,13,19,19,Strawberry_French_Toast.jpg
+118,Peach and Peanut Butter Snack,1,1,0,247,16,9,15.4,Peach_and_Peanut_Butter_Snack.jpg
+119,Bananas,1,0,0,89,0.3,1.1,12,Bagels.jpg
+120,Bagels made in wheat,0,1,1,250,1.5,10,6.1,Blueberries.jpg
+121,Berries,1,0,0,349,0.4,14,46,Brocolli.jpg
+122,Brocolli,0,1,1,25,0.5,3.8,0.6,Brown_Rice.jpg
+123,Brown Rice,0,1,1,362,2.7,7.5,0,Cauliflower.jpg
+124,Cauliflower,0,1,1,32,0.3,3,0,American_cheese.jpg
+125,American cheese,1,0,0,331,24,20,0,Coffee.jpg
+126,Coffee,1,0,0,2,0,0.3,0,Corn.jpg
+127,Corn,1,1,1,97,1.4,3.3,7.7,Dark_Chocolate.jpg
+128,Dark chocolates,0,0,1,556,32,5.5,48,Grapes.jpg
+129,Grapes,1,0,0,93,2.1,5.6,6.3,Milk.jpg
+130,Milk,1,0,1,97,6.9,3.8,0,bananas.jpg
+131,Vegan Aloo Gobi Wraps,0,1,1,408,15,10,6.2,Vegan_Aloo_Gobi_Wraps.jpg
+132,Aloo Phujia,0,1,1,152,2,10,2.4,Aloo_Phujia.jpg
+133,Aloo Tikki,0,1,1,144,4,3,2.3,Aloo_Tikki.jpg
+134,Tasty Chickpea Curry,1,1,1,358,10,10,3.2,Tasty_Chickpea_Curry.jpg
+135,Vegetarian Bean Curry,0,1,0,218,9,6,4.8,Vegetarian_Bean_Curry.jpg
+136,Indian Basmati Rice with Peas,0,1,1,192,4,2,0.8,Indian_Basmati_Rice_with_Peas.jpg
+137,Stuffed Eggplant,0,1,0,277,21,4,13.6,Stuffed_Eggplant.jpg
+138,Quick Vegetarian Spaghetti,0,1,1,262,10,2,5.4,Quick_Vegetarian_Spaghetti.jpg
+139,Vegetarian lasagna,0,1,1,533,23,24,12.3,Vegetarian_Lasagna.jpg
+140,Asparagus Cooked,0,1,1,22,0.2,2.4,1.3,Asparagus_Cooked.jpg
+141,Avocados,1,0,0,160,15,2,0.7,avocados.jpg
+142,Beef Burritos,0,0,1,446,22,24,2.6,Beef_Burritos.jpg
+143,Edamame Slaw,0,0,1,234,13,11,9.3,Edamame_Slaw.jpg
+144,Protein Power Oats,1,0,0,305,11,29,4,Protein_Power_Oats.jpg
+145,Taco Bowl Salad,0,0,1,445,22,30,3.8,Taco_Bowl_Salad.jpg
+146,Tuna-Avocado Sandwich,0,1,0,344,19,10,8.3,Tuna_Avocado_Sandwich.jpg
+147,Mexican Cottage Cheese Salad,0,1,0,335,39,3,12.6,Mexican_Cottage_Cheese_Salad.jpg
+148,Chickpea Salad,0,1,0,545,25,30,10.1,Chickpea_Salad.jpg
+149,Salmon Salad,0,1,0,568,33,38,13,Salmon_Salad.jpg
+150,Chestnuts Dried,1,0,0,104.6,1.1,1.4,4,Chestnuts_Dried.jpg
+151,Hot and Spicy Tofu,0,0,1,214,10,13,7.7,Hot_and_Spicy_Tofu.jpg
+152,Spicy Coconut Chicken Curry,0,0,1,247,28,13,0.8,Spicy_Coconut_Chicken_Curry.jpg
+153,Indian Spiced Roasted Chickpeas,0,1,0,150,6,7,0.1,Indian_Spiced_Roasted_Chickpeas.jpg
+154,Cashew Nuts,1,0,0,553,44,18,5.9,Cashews.jpg
+155,French Fries,0,1,1,289,14,3.5,0.3,French_Fries.jpg
+156,Chicken Burger,0,1,1,292,15,18,0,Chicken_Burger.jpg
+157,Cheese Burger,0,1,1,256,12,13,0,Cheese_Burger.jpg
+158,Chicken Sandwich,0,1,1,257,12,15,5,Chicken_Sandwich.jpg
+159,Sugar Doughnuts,0,1,0,426,23,5.2,32,Sugar_Doughnuts.jpg
+160,Chocolate Doughnuts,0,1,1,452,25,4.9,27,Chocolate_Doughnuts.jpg
+161,Waffles Buttermilk Frozen Ready-To-Heat,1,0,0,273,9.22,6.58,4.3,
+162,Waffle Buttermilk Frozen Ready-To-Heat Toasted,1,0,0,309,9.49,7.42,4.41,
+163,Waffle Buttermilk Frozen Ready-To-Heat Microwaved,1,0,0,289,9.4,6.92,4.5,
+164,Waffle Plain Frozen Ready-To-Heat Microwave,1,0,0,298,9.91,6.71,5.04,
+165,Pie Crust Cookie-Type Graham Cracker Ready Crust,1,0,0,501,24.83,5.1,18.13,
+166,Pie Crust Cookie-Type Chocolate Ready Crust,1,0,0,484,22.42,6.08,26.31,
+167,Dutch Apple Pie,1,0,0,290,11.5,2.17,22.02,
+168,Waffles Chocolate Chip Frozen Ready-To-Heat,1,0,0,297,10.1,5.8,13.1,
+169,Bread Salvadoran Sweet Cheese (Quesadilla Salvadorena),1,0,0,374,17.12,7.12,24.9,
+170,Bread Pound Cake Type Pan De Torta Salvadoran,1,0,0,390,17.45,7.06,18.1,
+171,Pastry Pastelitos De Guava (Guava Pastries),1,0,0,379,18.5,5.48,17,
+172,Crackers Snack Goya Crackers,1,0,0,433,13.35,14.25,2.35,
+173,Crackers Cream Gamesa Sabrosas,1,0,0,484,20.37,7.01,9.37,
+174,Crackers Cream La Moderna Rikis Cream Crackers,1,0,0,464,19.5,7.19,10.41,
+175,Bread White Wheat,1,0,0,238,2.15,10.66,5,
+176,Bagels Wheat,1,0,0,250,1.53,10.2,6.12,
+177,Cream Puff Eclair Custard Or Cream Filled Iced,1,0,0,334,18.52,4.41,22.05,
+178,Tortillas Ready-To-Bake Or -Fry Flour Shelf Stable,1,0,0,297,7.58,8.01,2.66,
+179,Snacks Beef Jerky Chopped And Formed,1,0,0,410,25.6,33.2,9,
+180,Snacks Corn-Based Extruded Chips Plain,1,0,0,539,33.36,6.17,0.27,
+181,Snacks Fruit Leather Pieces,1,0,0,359,2.68,1,57.58,
+182,Snacks Fruit Leather Rolls,1,0,0,371,3,0.1,49.16,
+183,Snacks Granola Bars Hard Plain,1,0,0,471,19.8,10.1,28.57,
+184,Honey-Combed With Peanut Butter,1,0,0,473,20.18,8.72,62.68,
+185,Snacks Granola Bars Soft Coated Milk Chocolate Coating Peanut Butter,1,0,0,508,31.1,10.2,23.74,
+186,Snacks Popcorn Oil-Popped Microwave Regular Flavor No Trans Fat,1,0,0,583,43.55,7.29,0.46,
+187,Snacks Popcorn Cakes,1,0,0,384,3.1,9.7,0.72,
+188,Snacks Popcorn Caramel-Coated With Peanuts,1,0,0,400,7.8,6.4,45.36,
+189,Snacks Popcorn Caramel-Coated Without Peanuts,1,0,0,431,12.8,3.8,53.19,
+190,Snacks Potato Chips Made From Dried Potatoes Reduced Fat,1,0,0,502,26.14,4.56,0.63,
+191,Snacks Pretzels Hard Plain Salted,1,0,0,384,2.93,10.04,2.21,
+192,Snacks Pretzels Hard Confectioners Coating Chocolate-Flavor,1,0,0,457,16.7,7.5,38.8,
+193,Snacks Tortilla Chips Plain White Corn Salted,1,0,0,472,20.68,7.1,0.78,
+194,Snacks Tortilla Chips Nacho Cheese,1,0,0,519,27.42,7.36,2.59,
+195,Snacks Tortilla Chips Ranch-Flavor,1,0,0,501,24.63,7.19,3.03,
+196,Almond Joy Candy Bar,1,0,0,479,26.93,4.13,48.34,
+197,Nestle Bit-O-Honey Candy Chews,1,0,0,388,7.5,2,48,
+198,Nestle Butterfinger Bar,1,0,0,459,18.9,5.4,45.9,
+199,Caramels Chocolate-Flavor Roll,1,0,0,387,3.31,1.59,56.32,
+200,Baking Chocolate Unsweetened Liquid,1,0,0,472,47.7,12.1,0,
+201,Unsweetened Baking Chocolate,1,0,0,642,52.31,14.32,0.91,
+202,Confectioners Coating Yogurt,1,0,0,522,27,5.87,62.36,
+203,Confectioners Coating Peanut Butter,1,0,0,529,29.8,18.3,38.3,
+204,White Chocolate,1,0,0,539,32.09,5.87,59,
+205,Ice Creams Vanilla Light,1,0,0,180,4.83,4.78,22.12,
+206,Ice Creams Vanilla Rich,1,0,0,249,16.2,3.5,20.65,
+207,Desserts Flan Caramel Custard Prepared-From-Recipe,1,0,0,145,4.03,4.53,22.78,
+208,Ice Creams Vanilla,1,0,0,207,11,3.5,21.22,
+209,Ice Creams Vanilla Light Soft-Serve,1,0,0,126,2.6,4.9,18.69,
+210,Sherbet Orange,1,0,0,144,2,1.1,24.32,
+211,Fudge Peanut Butter Prepared-From-Recipe,1,0,0,387,6.59,3.78,73.36,
+212,Fudge Vanilla Prepared-From-Recipe,1,0,0,383,5.45,1.05,79.77,
+213,Fudge Vanilla With Nuts,1,0,0,435,13.69,3,71,
+214,Nestle Goobers Chocolate Covered Peanuts,1,0,0,512,34,9.7,43,
+215,Nestle Baby Ruth Bar,1,0,0,475,21.6,5.4,54,
+216,Syrups Table Blends Pancake With Butter,1,0,0,291,0.09,0,72.25,
+217,Ice Creams Chocolate Light,1,0,0,187,7.19,5,24.71,
+218,Milk Chocolate,1,0,0,535,29.66,7.65,51.5,
+219,Andreas Gluten Free Soft Dinner Roll,1,0,0,257,8.2,5.65,2.98,
+220,Crunchmaster Multi-Grain Crisps Snack Crackers Gluten-Free,1,0,0,456,15.92,10.91,0.8,
+221,Glutino Gluten Free Cookies Chocolate Vanilla Creme,1,0,0,474,17.89,2.19,49,
+222,Glutino Gluten Free Cookies Vanilla Creme,1,0,0,487,18.79,2.19,49.43,
+223,Pepperidge Farm Goldfish Baked Snack Crackers Original,1,0,0,467,18.42,9.42,1.03,
+224,Pepperidge Farm Goldfish Baked Snack Crackers Parmesan,1,0,0,459,17.29,11.16,0.83,
+225,Pepperidge Farm Goldfish Baked Snack Crackers Pizza,1,0,0,469,18.93,9.67,0.86,
+226,Rudis Gluten-Free Bakery Original Sandwich Bread,1,0,0,320,10.7,3.13,8.36,
+227,Udis Gluten Free Soft & Delicious White Sandwich Bread,1,0,0,298,8.02,5.4,11.3,
+228,Udis Gluten Free Soft & Hearty Whole Grain Bread,1,0,0,309,9.34,7.25,9.81,
+229,Udis Gluten Free Whole Grain Dinner Rolls,1,0,0,329,11.6,11.8,4.2,
+230,Vans Gluten Free Totally Original Pancakes,1,0,0,215,4.55,3.31,4.06,
+231,Potatoes Hash Brown Refrigerated Unprepared,1,0,0,84,0.08,1.75,0.91,
+232,Potatoes Hash Brown Refrigerated Prepared Pan-Fried In Canola Oil,0,1,0,242,10.3,3.24,1.16,
+233,Sweet Potatoes French Fried Frozen As Packaged Salt Added In Processing,0,1,0,182,8.92,2.16,12.9,
+234,Moose Meat Raw (Alaska Native),0,1,0,103,1.5,22.3,0,
+235,On The Border Soft Taco With Ground Beef Cheese And Lettuce,0,1,0,229,11.05,13.19,1.84,
+236,Restaurant Mexican Soft Taco With Ground Beef Cheese And Lettuce,0,1,0,219,10.81,12.56,2.39,
+237,Restaurant Latino Chicken And Rice Entree Prepared,0,1,0,174,5.06,12.02,0.55,
+238,Restaurant Latino Empanadas Beef Prepared,0,1,0,335,18.37,11.31,1.84,
+239,Restaurant Latino Pupusas Con Frijoles (Pupusas Bean),0,1,0,229,9.01,5.59,1.3,
+240,Restaurant Latino Pupusas Con Queso (Pupusas Cheese),0,1,0,256,13.25,11.72,1.2,
+241,Restaurant Latino Pupusas Del Cerdo (Pupusas Pork),0,1,0,232,10.43,11.51,1.45,
+242,Restaurant Latino Tamale Corn,0,1,0,186,7.21,3.48,7.42,
+243,Restaurant Mexican Spanish Rice,0,1,0,185,5.29,3.28,1.3,
+244,Restaurant Mexican Refried Beans,0,1,0,156,6.77,6.91,0.78,
+245,Restaurant Chinese Fried Rice Without Meat,0,1,0,174,2.96,4.05,0.56,
+246,Cracker Barrel Steak Fries,0,1,0,255,13.18,3.26,0.86,
+247,Cracker Barrel Macaroni N Cheese Plate From Kids Menu,0,1,0,192,11.51,6.46,2.83,
+248,Dennys French Fries,0,1,0,282,14.13,3.41,0.85,
+249,Restaurant Chinese Lemon Chicken,0,1,0,252,13.55,11.87,8.18,
+250,Restaurant Chinese General Tsos Chicken,0,1,0,295,16.36,12.9,11.6,
+251,Restaurant Chinese Kung Pao Chicken,0,1,0,129,6.98,9.76,3.03,
+252,Restaurant Chinese Vegetable Lo Mein Without Meat,0,1,0,121,2.35,4.77,2.63,
+253,Restaurant Chinese Chicken And Vegetables,0,1,0,95,4.56,8.18,2.93,
+254,Restaurant Chinese Orange Chicken,0,1,0,262,12.68,14.46,13.6,
+255,Restaurant Italian Spaghetti With Meat Sauce,0,1,0,121,3.59,5.79,1.82,
+256,Fruit-Flavored Drink Dry Powdered Mix Low Calorie With Aspartame,0,1,0,218,0.04,0.45,0,
+257,Pectin Liquid,0,1,0,11,0,0,0,
+258,Frozen Novelties Ice Cream Type Vanilla Ice Cream Light No Sugar Added Chocolate Coated,1,0,0,221,10.1,6.4,8.52,
+259,Creamy Dressing Made With Sour Cream And/or Buttermilk And Oil Reduced Calorie,1,0,0,160,14,1.5,5.65,
+260,Milk Dessert Frozen Milk-Fat Free Chocolate,1,0,0,167,1,4.3,37.7,
+261,Whipped Topping Frozen Low Fat,1,0,0,224,13.1,3,23.6,
+262,Cream Substitute Powdered Light,1,0,0,431,15.7,1.9,73.4,
+263,Mars Snackfood Us M&Ms Peanut Butter Chocolate,1,0,0,529,29.32,10.16,47.15,
+264,Babyfood Apple Yogurt Dessert Strained,1,0,0,93,1.6,0.8,12.02,
+265,Vegetable Oil-Butter Spread Reduced Calorie,1,0,0,465,53,0,0,
+266,Salad Dressing Blue Or Roquefort Cheese Dressing Light,1,0,0,86,2.7,2.1,3.6,
+267,Salad Dressing French Dressing Reduced Calorie,1,0,0,227,13,0.4,25.92,
+268,Mayonnaise Made With Tofu,1,0,0,322,31.79,5.95,0.85,
+269,Frankfurter Beef Low Fat,0,1,0,140,9.5,12,0.85,
+270,Milk Buttermilk Fluid Cultured Reduced Fat,0,1,0,56,2,4.1,5.3,
+271,Salad Dressing Blue Or Roquefort Cheese Dressing Fat-Free,0,1,0,115,1.01,1.52,7.44,
+272,Salad Dressing Mayonnaise-Like Fat-Free,0,1,0,84,2.7,0.2,10.3,
+273,Mars Snackfood Us Milky Way Midnight Bar,0,1,0,443,17.5,3.2,57.81,
+274,Flaxseed Oil,0,1,0,884,99.98,0.11,0,
+275,Cheese Cottage Lowfat 1% Milkfat Lactose Reduced,0,1,0,74,1,12.4,2.6,
+276,Salad Dressing Bacon And Tomato,0,1,0,326,35,1.8,2,
+277,Grated Parmesan Cheese (Low-Sodium),0,1,0,451,29.99,41.6,0.85,
+278,Jams Preserves Marmalade Reduced Sugar,0,1,0,151,0.1,0,29.41,
+279,Fruit-Flavored Drink Powder With High Vitamin C With Other Added Vitamins Low Calorie,0,1,0,227,0.16,0.25,0,
+280,Tomato And Vegetable Juice Low Sodium,0,1,0,22,0.1,0.6,3.28,
+281,Chocolate-Flavored Drink Whey And Milk Based,1,0,0,49,0.4,0.64,8.68,
+282,Hearts Of Palm Raw,1,0,0,115,0.2,2.7,17.16,
+283,Post Shredded Wheat N Bran Spoon-Size,1,0,0,339,2.06,10.93,0.75,
+284,Cheese Cottage Lowfat 1% Milkfat With Vegetables,1,0,0,67,1,10.9,3,
+285,Yeast Extract Spread,1,0,0,185,0.9,23.88,1.6,
+286,Babyfood Juice Pear,1,0,0,43,0,0,7.28,
+287,Chicken Meatless Breaded Fried,1,0,0,234,12.77,21.28,0,
+288,Frozen Novelties Juice Type Juice With Cream,1,0,0,115,1.41,1.41,20.61,
+289,Tofu Yogurt,1,0,0,94,1.8,3.5,1.24,
+290,Millet Puffed,1,0,0,354,3.4,13,0.55,
+291,Oat Bran Flakes Health Valley,1,0,0,380,3,10,22,
+292,Abbott Ensure Plus Ready-To-Drink,1,0,0,141,4.52,5.16,8.33,
+293,Milk Imitation Non-Soy,1,0,0,46,2,1.6,5.3,
+294,Breakfast Bar Corn Flake Crust With Fruit,1,0,0,376,7.5,4.4,35.1,
+295,Cheese Mozzarella Low Sodium,1,0,0,280,17.1,27.5,1.23,
+296,Mayonnaise Dressing No Cholesterol,1,0,0,688,77.8,0,0.3,
+297,Oil Corn Peanut And Olive,1,0,0,884,100,0,0,
+298,Pie Fillings Blueberry Canned,1,0,0,181,0.2,0.41,37.75,
+299,Cocktail Mix Non-Alcoholic Concentrated Frozen,1,0,0,287,0.01,0.08,24.53,
+300,Puddings Chocolate Flavor Low Calorie Regular Dry Mix,1,0,0,365,3,10.08,0.7,
+301,Puddings All Flavors Except Chocolate Low Calorie Regular Dry Mix,1,0,0,351,0.1,1.6,2.9,
+302,Scallops,1,0,0,111,0.84,20.54,0,
+303,Syrup Cane,1,0,0,269,0,0,73.2,
+304,Lemons,1,0,0,29,0.3,1.1,2.5,
+305,Lemon Juice Raw,1,0,0,22,0.24,0.35,2.52,
+306,Lemon Juice From Concentrate Canned Or Bottled,1,0,0,17,0.07,0.45,1.53,
+307,Lemon Peel Raw,1,0,0,47,0.3,1.5,4.17,
+308,Plums Dried (Prunes) Stewed Without Added Sugar,1,0,0,107,0.16,0.96,24.98,
+309,Shredded Coconut Meat (Sweetened),1,0,0,71,0.03,0.61,16.45,
+310,Raspberries,1,0,0,52,0.65,1.2,4.42,
+311,Raspberries Canned Red Heavy Syrup Pack Solids And Liquids,1,0,0,91,0.12,0.83,20.06,
+312,Strawberries,1,0,0,32,0.3,0.67,4.89,
+313,Tamarinds,1,0,0,239,0.6,2.8,38.8,
+314,Watermelon,1,0,0,30,0.15,0.61,6.2,
+315,Maraschino Cherries (Canned),1,0,0,165,0.21,0.22,38.77,
+316,Pineapple Canned Juice Pack Drained,1,0,0,60,0.11,0.51,14.26,
+317,Apricots Canned Heavy Syrup Drained,1,0,0,83,0.11,0.64,18.65,
+318,Cherries Sour Canned Water Pack Drained,1,0,0,42,0.21,0.69,6.99,
+319,Cherries Sweet Canned Pitted Heavy Syrup Drained,1,0,0,83,0.21,0.73,16.18,
+320,Apple Juice Canned Or Bottled Unsweetened With Added Ascorbic Acid,1,0,0,46,0.13,0.1,9.62,
+321,Applesauce Canned Unsweetened With Added Ascorbic Acid,1,0,0,42,0.1,0.17,9.39,
+322,Bartlett Pears,1,0,0,63,0.16,0.39,9.69,
+323,Red Anjou Pears,1,0,0,62,0.14,0.33,9.54,
+324,Bosc Pear,1,0,0,67,0.09,0.36,10.23,
+325,Green Anjou Pear,1,0,0,66,0.1,0.44,9.73,
+326,Prune Puree,1,0,0,257,0.2,2.1,39,
+327,Candied Fruit,1,0,0,322,0.07,0.34,80.68,
+328,Abiyuch,1,0,0,69,0.1,1.5,8.55,
+329,Rowal,1,0,0,111,2,2.3,14.1,
+330,Guava Nectar Canned With Added Ascorbic Acid,1,0,0,63,0.06,0.09,12.95,
+331,Mango Nectar Canned,1,0,0,51,0.06,0.11,12.45,
+332,Tamarind Nectar Canned,1,0,0,57,0.12,0.09,12.7,
+333,Pomegranate Juice Bottled,1,0,0,54,0.29,0.15,12.65,
+334,Nance Canned Syrup Drained,1,0,0,95,1.28,0.56,15.66,
+335,Nance Frozen Unsweetened,1,0,0,73,1.16,0.66,8.31,
+336,Naranjilla (Lulo) Pulp Frozen Unsweetened,1,0,0,25,0.22,0.44,3.74,
+337,Orange Pineapple Juice Blend,1,0,0,51,0.08,0.41,10.57,
+338,Fuji Apples,1,0,0,63,0.18,0.2,11.68,
+339,Orange Juice Chilled Includes From Concentrate With Added Calcium And Vitamins A D E,1,0,0,49,0.12,0.68,8.31,
+340,Fruit Juice Smoothie Naked Juice Mighty Mango,1,0,0,63,0,0.42,12.5,
+341,Fruit Juice Smoothie Naked Juice Green Machine,1,0,0,53,0.26,0.6,11.15,
+342,Fruit Juice Smoothie Bolthouse Farms Berry Boost,1,0,0,46,0.02,0.63,9.3,
+343,Fruit Juice Smoothie Bolthouse Farms Green Goodness,1,0,0,56,0.33,0.63,11.46,
+344,Fruit Juice Smoothie Bolthouse Farms Strawberry Banana,1,0,0,52,0.3,0.44,10.33,
+345,Apple Juice Canned Or Bottled Unsweetened With Added Ascorbic Acid Calcium And Potassium,1,0,0,48,0.17,0.12,9.47,
+346,Lemon Juice From Concentrate Bottled Real Lemon,1,0,0,17,0.07,0.47,1.59,
+347,Cranberry Sauce Whole Canned Ocean Spray,1,0,0,158,0.05,0.75,31.3,
+348,Cranberry Sauce Jellied Canned Ocean Spray,1,0,0,160,0.04,1.05,32.2,
+349,Ruby Red Grapefruit Juice Blend (Grapefruit Grape Apple) Ocean Spray Bottled With Added Vitamin C,1,0,0,44,0.1,0.5,10.3,
+350,Raspberries Puree Seedless,1,0,0,41,0.87,1.02,6.04,
+351,Raspberries Puree With Seeds,1,0,0,55,0.97,1.1,6.56,
+352,Fruit Syrup,1,0,0,341,0,0,53,
+353,Topping Smuckers Magic Shell,1,0,0,609,44.1,2.94,47.06,
+354,Syrup Fruit Flavored,1,0,0,261,0.02,0,65,
+355,Snacks Oriental Mix Rice-Based,1,0,0,506,25.58,17.31,3,
+356,Snacks Popcorn Air-Popped,0,1,0,387,4.54,12.94,0.87,
+357,Snacks Popcorn Cheese-Flavor,0,1,0,526,33.2,9.3,0.79,
+358,Snacks Pork Skins Plain,0,1,0,544,31.3,61.3,0,
+359,Snacks Potato Chips Barbecue-Flavor,0,1,0,487,31.06,6.51,5.47,
+360,Snacks M&m Mars Combos Snacks Cheddar Cheese Pretzel,0,1,0,463,16.92,9.85,17.6,
+361,Snacks Rice Cracker Brown Rice Plain,0,1,0,387,2.8,8.2,0.89,
+362,Trail Mix,1,1,1,484,31.9,14.2,23.88,
+363,Tootsie Roll Chocolate-Flavor Roll,1,1,1,387,3.31,1.59,56.32,
+364,Butterscotch Candy,1,1,1,391,3.3,0.03,80.46,
+365,Carob Unsweetened,1,1,1,540,31.36,8.15,34.11,
+366,Caramel Candy,1,1,1,382,8.1,4.6,65.5,
+367,Caramello Candy Bar,1,1,0,462,21.19,6.19,56.92,
+368,Semisweet Chocolate,1,0,0,480,30,4.2,54.5,
+369,Sweet Chocolate,1,0,0,507,34.2,3.9,51.48,
+370,Sweet Chocolate Coated Fondant,1,0,0,366,9.3,2.2,71.42,
+371,Confectioners Coating Butterscotch,1,0,0,539,29.05,2.2,67.1,
+372,Ice Creams French Vanilla Soft-Serve,1,0,0,222,13,4.1,21.16,
+373,York Peppermint Pattie,1,0,0,384,7.17,2.19,63.78,
+374,Twizzlers Nibs Cherry Bits,1,0,0,347,2.64,2.3,51.35,
+375,Symphony Milk Chocolate Bar,1,0,0,531,30.57,8.51,53.96,
+376,5th Avenue Candy Bar,1,0,0,482,23.98,8.78,47.19,
+377,Kit Kat Wafer Bar,1,0,0,518,25.99,6.51,48.68,
+378,Krackel Chocolate Bar,1,0,0,523,26.58,6.62,52.53,
+379,Mars Snackfood Us Mars Almond Bar,1,0,0,467,23,8.1,52.1,
+380,Marshmallows,1,0,0,318,0.2,1.8,57.56,
+381,Nestle Oh Henry! Bar,1,0,0,462,23,7.7,46.2,
+382,Baking Chocolate Mexican Squares,1,0,0,426,15.59,3.64,69.4,
+383,Chocolate-Flavored Hazelnut Spread,1,1,0,539,29.73,5.41,54.05,
+384,Milk Chocolate Coated Peanuts,1,0,0,519,33.5,13.1,37.59,
+385,Glutino Gluten Free Wafers Lemon Flavored,1,0,0,515,24.18,0,42.31,
+386,Glutino Gluten Free Wafers Milk Chocolate,1,0,0,541,30.42,4.06,40.99,
+387,Marys Gone Crackers Original Crackers Organic Gluten Free,1,0,0,446,15.63,12.06,1,
+388,Sage Valley Gluten Free Vanilla Sandwich Cookies,1,1,0,499,22.15,3.13,43.94,
+389,Schar Gluten-Free Classic White Rolls,1,1,0,239,2.65,3.34,6.87,
+390,Schar Gluten-Free Wheat-Free Classic White Bread,1,1,0,240,4.47,3.81,3.34,
+391,Udis Gluten Free Classic French Dinner Rolls,1,1,0,310,6.4,7.99,9.53,
+392,Bread Multi-Grain (Includes Whole-Grain),1,1,0,265,4.23,13.36,6.39,
+393,Cookies Animal Crackers (Includes Arrowroot Tea Biscuits),1,1,0,446,13.8,6.9,23.3,
+394,Sweet Potatoes French Fried Crosscut Frozen Unprepared,1,1,0,209,11.1,1.7,6.46,
+395,Sweet Potato Puffs Frozen Unprepared,1,1,0,161,3.58,1.36,7.65,
+396,Restaurant Chinese Chicken Chow Mein,1,1,0,85,2.8,6.76,1.74,
+397,Restaurant Chinese Vegetable Chow Mein Without Meat Or Noodles,1,1,0,43,1.68,1.34,2.63,
+398,Olive Garden Spaghetti With Meat Sauce,1,1,1,121,3.28,5.8,1.67,
+399,Carrabbas Italian Grill Spaghetti With Meat Sauce,1,1,1,122,3.92,5.87,1.96,
+400,Restaurant Chinese Sesame Chicken,0,1,1,293,14.25,14.33,15.98,
+401,Syrups Grenadine,0,1,1,268,0,0,46.55,
+402,Imitation Cheese American Or Cheddar Low Cholesterol,0,1,0,390,32,25,1,
+403,Salad Dressing Peppercorn Dressing Commercial Regular,0,0,0,564,61.4,1.2,2.45,
+404,Mayonnaise Reduced-Calorie Or Diet Cholesterol-Free,1,0,0,333,33.3,0.9,4.2,
+405,Granola Bar Soft Milk Chocolate Coated Peanut Butter,1,0,0,536,31.2,9.6,23.63,
+406,Salad Dressing Italian Dressing Reduced Calorie,1,0,0,200,20,0.3,1.94,
+407,Cream Substitute Liquid Light,1,0,0,71,3.5,0.8,9.1,
+408,Cheese Monterey Low Fat,1,0,0,313,21.6,28.2,0.56,
+409,Creamy Dressing Made With Sour Cream And/or Buttermilk And Oil Reduced Calorie Fat-Free,1,0,0,107,2.7,1.4,5.35,
+410,Creamy Dressing Made With Sour Cream And/or Buttermilk And Oil Reduced Calorie Cholesterol-Free,1,0,0,140,8,1,3.28,
+411,Bologna Beef Low Fat,0,1,1,204,14.8,11.8,0,
+412,Mars Snackfood Us Twix Chocolate Fudge Cookie Bars,1,0,0,553,33.3,7.3,53,
+413,Frozen Yogurts Chocolate Nonfat Milk Sweetened Without Sugar,1,0,0,107,0.8,4.4,12.61,
+414,Frozen Yogurts Chocolate,1,0,0,131,3.6,3,19.24,
+415,Frozen Yogurts Flavors Other Than Chocolate,1,0,0,127,3.6,3,19.92,
+416,Papad,0,1,0,371,3.25,25.56,0,
+417,Rice Cake Cracker (Include Hain Mini Rice Cakes),0,1,0,392,4.3,7.1,0.88,
+418,Mars Snackfood Us M&Ms Almond Chocolate,1,0,1,522,27.76,7.53,49.22,
+419,Salad Dressing Coleslaw Dressing Reduced Fat,0,0,1,329,20,0,38.73,
+420,Salad Dressing Mayonnaise And Mayonnaise-Type Low Calorie,0,1,0,263,19,0.9,4.34,
+421,Frozen Novelties Juice Type Orange,0,1,0,95,0,0.5,19.99,
+422,Cheese Cottage Lowfat 1% Milkfat No Sodium Added,0,0,1,72,1,12.4,2.7,
+423,Mayonnaise Low Sodium Low Calorie Or Diet,0,0,1,231,19.2,0.3,4.2,
+424,Snacks Tortilla Chips Unsalted White Corn,0,0,1,503,23.36,7.79,1,
+425,Cranberry Juice Unsweetened,0,0,1,46,0.13,0.39,12.1,
+426,Beef Bologna Reduced Sodium,0,0,1,310,28.4,11.7,0,
+427,Turnip Greens Canned No Salt Added,0,0,1,19,0.3,1.36,0.42,
+428,Cheese Pasteurized Process Cheddar Or American Low Sodium,0,0,1,376,31.19,22.2,0.45,
+429,Coffee Instant With Whitener Reduced Calorie,0,0,1,509,29.1,1.96,59,
+430,Cranberry-Apple Juice Drink Low Calorie With Vitamin C Added,0,0,1,19,0,0.1,4.6,
+431,Cheese Swiss Low Sodium,0,0,1,374,27.4,28.4,1.31,
+432,Babyfood Dinner Macaroni Beef And Tomato Sauce Toddler,0,0,1,82,1.9,4.34,0.37,
+433,Rolls Pumpernickel,0,0,1,276,2.8,10.8,0.4,
+434,Extruded Corn Chips,0,0,1,557,33.4,6.6,1.41,
+435,Beans Baked Canned No Salt Added,0,0,1,105,0.4,4.8,7.78,
+436,Jellyfish Dried Salted,0,0,1,36,1.4,5.5,0,
+437,Frozen Novelties Ice Cream Type Chocolate Or Caramel Covered With Nuts,0,0,1,323,20.2,4.4,30,
+438,Frankfurter Low Sodium,0,0,1,312,28.51,12,0,
+439,Frozen Novelties Ice Type Pop With Low Calorie Sweetener,0,0,1,24,0,0,1.52,
+440,Ice Creams Chocolate Rich,0,0,1,251,16.98,4.72,17.35,
+441,Snacks Tortilla Chips Light (Baked With Less Oil),0,0,1,465,15.2,8.7,0.53,
+442,Post Honey Bunches Of Oats Honey Roasted,0,0,1,401,5.46,7.12,19.79,
+443,Popcorn Microwave Low Fat And Sodium,0,0,1,429,9.5,12.6,0.54,
+444,Cheese Swiss Low Fat,1,0,0,179,5.1,28.4,1.33,
+445,Sweeteners Tabletop Fructose Liquid,1,0,0,279,0,0,76,
+446,Puddings Chocolate Flavor Low Calorie Instant Dry Mix,1,0,0,356,2.4,5.3,0.7,
+447,Jellies Reduced Sugar Home Preserved,1,0,0,179,0.03,0.3,45.3,
+448,Vital Wheat Gluten,1,0,0,370,1.85,75.16,0,
+449,Frog Legs Raw,0,0,0,73,0.3,16.4,0,
+450,Fish Mackerel Salted,0,0,0,305,25.1,18.5,0,
+451,Kiwifruit,1,0,0,61,0.52,1.14,8.99,
+452,Kumquats,1,0,0,71,0.86,1.88,9.36,
+453,Limes,1,0,0,30,0.2,0.7,1.69,
+454,Lime Juice,1,0,0,25,0.07,0.42,1.69,
+455,Lime Juice Canned Or Bottled Unsweetened,1,0,0,21,0.23,0.25,1.37,
+456,Dried Blueberries (Sweetened),1,0,0,317,2.5,2.5,67.5,
+457,Prunes (Dried Plums),1,0,0,240,0.38,2.18,38.13,
+458,Golden Seedless Raisins,1,0,0,301,0.2,3.28,65.7,
+459,Raisins,1,0,0,299,0.25,3.3,65.18,
+460,Rhubarb Frozen Uncooked,1,0,0,21,0.11,0.55,1.1,
+461,Rhubarb Frozen Cooked With Sugar,1,0,0,116,0.05,0.39,28.7,
+462,Strawberries Canned Heavy Syrup Pack Solids And Liquids,1,0,0,92,0.26,0.56,21.83,
+463,Frozen Strawberries,1,0,0,35,0.11,0.43,4.56,
+464,Strawberries Frozen Sweetened Sliced,1,0,0,96,0.13,0.53,24.01,
+465,Feijoa,1,0,0,61,0.42,0.71,8.2,
+466,Asian Pears,1,0,0,42,0.23,0.5,7.05,
+467,Fruit Cocktail Canned Heavy Syrup Drained,1,0,0,70,0.1,0.47,17.14,
+468,Blueberries Canned Light Syrup Drained,1,0,0,88,0.4,1.04,17.45,
+469,Blueberries Wild Canned Heavy Syrup Drained,1,0,0,107,0.34,0.56,19.28,
+470,Peaches Canned Heavy Syrup Drained,1,0,0,72,0.18,0.52,14.66,
+471,Pears Canned Heavy Syrup Drained,1,0,0,74,0.18,0.24,16.42,
+472,Plums Canned Heavy Syrup Drained,1,0,0,89,0.14,0.44,21.58,
+473,Tangerines (Mandarin Oranges) Canned Juice Pack Drained,1,0,0,38,0.04,0.75,8.25,
+474,Peach Nectar Canned With Added Ascorbic Acid,1,0,0,50,0.51,0.21,11.16,
+475,Pear Nectar Canned With Added Ascorbic Acid,1,0,0,60,0.01,0.11,15.16,
+476,Pineapple Juice Canned Or Bottled Unsweetened With Added Ascorbic Acid,1,0,0,53,0.12,0.36,9.98,
+477,Grapefruit Juice White Bottled Unsweetened Ocean Spray,1,0,0,37,0.64,0.54,7.69,
+478,Medjool Dates,1,0,0,277,0.15,1.81,66.47,
+479,Pineapple Raw Extra Sweet Variety,1,0,0,51,0.11,0.53,10.32,
+480,Clementines,1,0,0,47,0.15,0.85,9.18,
+481,Guanabana Nectar Canned,1,0,0,59,0.17,0.11,13.07,
+482,Juice Apple And Grape Blend With Added Ascorbic Acid,1,0,0,50,0.12,0.16,10.92,
+483,Juice Apple Grape And Pear Blend With Added Ascorbic Acid And Calcium,1,0,0,52,0.12,0.17,9.95,
+484,Plantains Green Fried,1,0,0,309,11.81,1.5,3.63,
+485,Fried Yellow Plantains,1,0,0,236,7.51,1.42,21.76,
+486,Red Delicious Apples,1,0,0,59,0.2,0.27,10.48,
+487,Golden Delicious Apples,1,0,0,57,0.15,0.28,10.04,
+488,Granny Smith Apples,1,0,0,58,0.19,0.44,9.59,
+489,Gala Apples,1,0,0,57,0.12,0.25,10.37,
+490,Fortified Fruit Juice Smoothie,1,0,0,71,0,0.42,12.08,
+491,Grape Juice Canned Or Bottled Unsweetened With Added Ascorbic Acid And Calcium,1,0,0,62,0.13,0.37,14.2,
+492,Fruit Juice Smoothie Odwalla Original Superfood,1,0,0,50,0.36,0.63,10.16,
+493,Frozen Raspberries,1,0,0,56,0.81,1.15,6.54,
+494,Guava Nectar With Sucralose Canned,1,0,0,48,0.07,0.3,10.15,
+495,Kiwifruit Zespri Sungold Raw,1,0,0,63,0.28,1.02,12.3,
+496,Cranberry Juice Blend 100% Juice Bottled With Added Vitamin C And Calcium,1,0,0,45,0.12,0.27,9.8,
+497,Fruit Juice Smoothie Odwalla Strawberry Banana,1,0,0,48,0.32,0.5,9.9,
+498,Fruit Juice Smoothie Naked Juice Strawberry Banana,1,0,0,50,0.27,0.48,10.05,
+499,Plantains Green Raw,1,0,0,152,0.07,1.25,2.29,
+500,Plantains Green Boiled,1,0,0,121,0.08,1.09,2.25,
+501,Raspberry Juice Concentrate,1,0,0,221,1.34,3.04,38.21,
+502,Sun-Dried Tomatoes,0,0,1,258,2.97,14.11,37.59,
+503,Baby Carrots,0,0,1,35,0.13,0.64,4.76,
+504,Sun-Dried Hot Chile Peppers,0,0,1,324,5.81,10.58,41.06,
+505,Nopales,0,0,1,16,0.09,1.32,1.15,
+506,Fava Beans (Raw),0,0,1,88,0.73,7.92,9.21,
+507,Grape Leaves Raw,0,0,1,93,2.12,5.6,6.3,
+508,Jalapeno Peppers,0,0,1,29,0.37,0.91,4.12,
+509,Hungarian Peppers,0,0,1,29,0.41,0.8,3.53,
+510,Oyster Mushrooms,0,0,1,33,0.41,3.31,1.11,
+511,Shredded Coconut Meat,0,0,1,501,35.49,2.88,43.17,
+512,Almond Butter,0,0,1,614,55.5,20.96,4.43,
+513,Seeds Sunflower Seed Kernels Oil Roasted With Salt Added,0,0,1,592,51.3,20.06,3.11,
+514,Seeds Sunflower Seed Butter With Salt Added,0,1,0,617,55.2,17.28,10.54,
+515,Nuts Almonds Dry Roasted With Salt Added,0,1,0,598,52.54,20.96,4.86,
+516,Nuts Cashew Butter Plain With Salt Added,0,1,0,609,53.03,12.12,9.09,
+517,Nuts Macadamia Nuts Dry Roasted With Salt Added,0,1,0,716,76.08,7.79,4.14,
+518,Nuts Mixed Nuts Dry Roasted With Peanuts With Salt Added,0,0,1,594,51.45,17.3,4.8,
+519,Nuts Mixed Nuts Oil Roasted With Peanuts With Salt Added,0,0,1,607,53.95,20.04,4.15,
+520,Broccoli (Cooked),0,0,1,35,0.41,2.38,1.39,
+521,Broccoli Frozen Chopped Unprepared,0,0,1,26,0.29,2.81,1.35,
+522,Broccoli Frozen Chopped Cooked Boiled Drained Without Salt,0,0,1,28,0.12,3.1,1.47,
+523,Broccoli Frozen Spears Unprepared,0,0,1,29,0.34,3.06,1.47,
+524,Brussels Sprouts (Cooked),0,0,1,36,0.5,2.55,1.74,
+525,Brussels Sprouts Frozen Unprepared,0,0,1,41,0.41,3.78,2.03,
+526,Brussels Sprouts Frozen Cooked Boiled Drained Without Salt,0,0,1,42,0.39,3.64,2.08,
+527,Burdock Root Raw,0,0,1,72,0.15,1.53,2.9,
+528,Cabbage,0,0,1,25,0.1,1.28,3.2,
+529,Cooked Cabbage,0,0,1,23,0.06,1.27,2.79,
+530,Red Cabbage,0,0,1,31,0.16,1.43,3.83,
+531,Cooked Red Cabbage,0,0,1,29,0.09,1.51,3.32,
+532,Cabbage Chinese (Pe-Tsai) Raw,0,0,1,16,0.2,1.2,1.41,
+533,Carrots Frozen Unprepared,0,1,1,36,0.46,0.78,4.76,
+534,Carrots Frozen Cooked Boiled Drained Without Salt,0,1,1,37,0.68,0.58,4.08,
+535,Cassava,0,1,1,160,0.28,1.36,1.7,
+536,Cauliflower,0,1,1,25,0.28,1.92,1.91,
+537,Celery,0,1,0,14,0.17,0.69,1.34,
+538,Cooked Celery,0,1,1,18,0.16,0.83,2.37,
+539,Swiss Chard,0,1,0,19,0.2,1.8,1.1,
+540,Chicory Greens,0,1,0,23,0.3,1.7,0.7,
+541,Chicory Roots,0,1,0,72,0.2,1.4,8.73,
+542,Chives,0,1,0,30,0.73,3.27,1.85,
+543,Collards Frozen Chopped Cooked Boiled Drained Without Salt,0,1,0,36,0.41,2.97,0.57,
+544,Cilantro,0,1,0,23,0.52,2.13,0.87,
+545,Yellow Sweet Corn,0,1,0,86,1.35,3.27,6.26,
+546,Cooked Yellow Sweet Corn,0,1,1,96,1.5,3.41,4.54,
+547,Onions,0,1,1,40,0.1,1.1,4.24,
+548,Cooked Onions,0,0,1,44,0.19,1.36,4.73,
+549,Onions Dehydrated Flakes,0,0,0,349,0.46,8.95,37.41,
+550,Onions Canned Solids And Liquids,0,0,1,19,0.09,0.85,2.2,
+551,Spring Onions,0,0,1,32,0.19,1.83,2.33,
+552,Onions Young Green Tops Only,0,0,1,27,0.47,0.97,3.91,
+553,Onions Welsh Raw,0,0,0,34,0.4,1.9,2.18,
+554,Sweet Onions,0,0,0,32,0.08,0.8,5.02,
+555,Cooked Parsnips,0,1,1,71,0.3,1.32,4.8,
+556,Snow Peas,0,1,1,42,0.2,2.8,4,
+557,Cooked Snow Peas,0,1,1,42,0.23,3.27,3.99,
+558,Peas Green (Includes Baby And Lesuer Types) Canned Drained Solids Unprepared,0,1,1,68,0.8,4.47,2.99,
+559,Peas Green Frozen Cooked Boiled Drained Without Salt,0,1,1,78,0.27,5.15,4.4,
+560,Peas And Carrots Frozen Cooked Boiled Drained Without Salt,0,1,1,48,0.42,3.09,4.36,
+561,Peas And Onions Frozen Cooked Boiled Drained Without Salt,0,1,1,45,0.2,2.54,3.77,
+562,Sauteed Green Bell Peppers,0,1,1,116,11.85,0.78,2.17,
+563,Pigeonpeas Immature Seeds Raw,0,1,1,136,1.64,7.2,3,
+564,Potatoes Flesh And Skin Raw,0,1,1,77,0.09,2.05,0.82,
+565,Potatoes Russet Flesh And Skin Raw,0,1,1,79,0.08,2.14,0.62,
+566,Potatoes White Flesh And Skin Raw,0,1,1,69,0.1,1.68,1.15,
+567,Potatoes Red Flesh And Skin Raw,0,1,1,70,0.14,1.89,1.29,
+568,Baked Russet Potatoes,0,1,1,95,0.13,2.63,1.08,
+569,Potatoes Roasted Salt Added In Processing Frozen Unprepared,0,1,1,127,1.81,2.22,0.69,
+570,Baked Potato (No Skin),0,0,1,93,0.1,1.96,1.7,
+571,Potatoes Baked Skin Without Salt,0,0,1,198,0.1,4.29,1.4,
+572,Apricots Canned Juice Pack With Skin Solids And Liquids,1,0,0,48,0.04,0.63,10.74,
+573,Apricots Canned Light Syrup Pack With Skin Solids And Liquids,1,0,0,63,0.05,0.53,14.89,
+574,Dried Apricots,1,0,0,241,0.51,3.39,53.44,
+575,Apricots Dried Sulfured Stewed Without Added Sugar,1,0,0,85,0.18,1.2,19.57,
+576,Bananas,1,0,0,89,0.33,1.09,12.23,
+577,Dried Bananas,1,0,0,346,1.81,3.89,47.3,
+578,Blackberries,1,0,0,43,0.49,1.39,4.88,
+579,Blackberry Juice Canned,1,0,0,38,0.6,0.3,7.7,
+580,Blueberries Canned Heavy Syrup Solids And Liquids,1,0,0,88,0.33,0.65,20.46,
+581,Blueberries (Frozen),1,0,0,51,0.64,0.42,8.45,
+582,Blueberries Frozen Sweetened,1,0,0,85,0.13,0.4,19.72,
+583,Cherimoya,1,0,0,75,0.68,1.57,12.87,
+584,Sour Red Cherries,1,0,0,50,0.3,1,8.49,
+585,Cherries Sour Red Canned Water Pack Solids And Liquids (Includes USDA Commodity Red Tart Cherries Canned),1,0,0,36,0.1,0.77,7.6,
+586,Cherries Sweet Canned Water Pack Solids And Liquids,1,0,1,46,0.13,0.77,10.26,

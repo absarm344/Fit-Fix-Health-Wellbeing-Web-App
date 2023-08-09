@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FitFix | Health & Nutrition Website</title>
+    <link rel="stylesheet" href="{% static 'polls/assets/css/app.css' %}">
+    <link rel="stylesheet" href="{% static 'polls/assets/css/plugins.css' %}">
+    <script src="{% static 'polls/assets/js/plugins.js' %}"></script>
+    <script src="{% static 'polls/assets/js/app.js' %}"></script>
+    <link rel="shortcut icon" href="{% static 'profile/images/favicon.png' %}">
+        
+</head>
+
+
+
+<body class="home_1">
+
+
+<div class="preloader-wrapper">
+    <div class="preloader-thumb">
+        <img src="{% static 'polls/assets/images/all-img/preloder.gif' %}" alt="">
+    </div>
+</div>
+
+<!--
+Header area start
+ -->
+
+<div class="site-header">
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8">
+                    <ul class="text-center text-md-left lft">
+                        <li><a href="mailto:FitFix@gmail.com"><i class="icofont">ui_message</i>nfo@example.com</a></li>
+                        <li><i class="icofont">ui_timer</i>Mom-Fri 8:00AM- 7:00PM</li>
+                    </ul>
+                </div><!-- end top header single -->
+                <div class="col-lg-6 col-md-4">
+                    <ul class="text-center text-md-right rgt">
+                        <li><a href="#"><i class="icofont">facebook</i></a></li>
+                        <li><a href="#"><i class="icofont">twitter</i></a></li>
+                        <li><a href="#"><i class="icofont">google_plus</i></a></li>
+                        <li><a href="#"><i class="icofont">linkedin</i></a></li>
+                    </ul>
+                </div><!-- end top header single -->
+            </div>
+        </div>
+    </div> <!-- end top header -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand logo"><img src="assets/images/logo/logo.png" alt=""></a>
+            <div class="ml-auto main-menu">
+                <ul>
+                    <li class="current-menu-item"><a href="{% url 'index' %}">home</a>
+                    </li>
+                    <li class="menu-item"><a href="#">About Us</a>
+                    </li>
+                    <li class="menu-item"><a href="{% url 'subscription' %}">Buy a Plan</a>
+                    </li>
+                    <li><a href="{% url 'ourteam' %}">Our Nutritonists</a></li>
+                    <li class="menu-item"><a href="{% url 'dashboard' %}">Dashboard</a>
+                    </li>
+                    <li><a href="{% url 'signup' %}">Signup</a></li>
+                    <li><a href="{% url 'login' %}">Login</a></li>
+                </ul>
+            </div> <!-- end main-menu -->
+            <div class="mobile-menu ml-auto">
+                <div class="menu-click">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</div>

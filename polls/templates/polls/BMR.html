@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>BMR Calculator</title>
+		
+		{% load static %}
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="https://previews.customer.envatousercontent.com/files/197125516/css/bf-main.css">
+		<link rel="stylesheet" type="text/css" href="{% static 'polls/bmi_cal/bf-light-simplistic.css' %}">
+		
+		<!-- Custom fonts for this template-->
+		<link
+		href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+		rel="stylesheet"
+	  />
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+		  integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  
+	  <!-- Custom styles for this template-->
+	  <link
+		rel="stylesheet"
+		href="{% static 'polls/dashboard/css/sb-admin-2.min.css' %}"
+	  />
+	  <link
+		rel="stylesheet"
+		href="{% static 'polls/dashboard/vendor/fontawesome-free/css/all.min.css' %}"
+	  />
+	  <link
+		rel="stylesheet"
+		href="{% static 'polls/dashboard/css/exercises.css' %}"
+	  />
+	  <script src="{% static 'polls/dashboard/vendor/jquery/jquery.min.js' %}"></script>
+	  <script src="{% static 'polls/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+	  <script src="{% static 'polls/dashboard/vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+	  <script src="{% static 'polls/dashboard/js/sb-admin-2.min.js' %}"></script>
+	  <script src="{% static 'polls/dashboard/vendor/chart.js/Chart.min.js' %}"></script>
+	  <script src="{% static 'polls/dashboard/js/demo/chart-area-demo.js' %}"></script>
+	  <script src="{% static 'polls/dashboard/js/demo/chart-pie-demo.js' %}"></script>
+	</head>
+	<body>
+
+		<div id="wrapper">
+		
+			{% include 'polls/sidebar.html' %}
+
+
+			      <!-- Content Wrapper -->
+				  <div id="content-wrapper" class="d-flex flex-column">
+					<!-- Main Content -->
+					<div id="content">
+					  <!-- Topbar -->
+						{% include 'polls/top_navbar.html' %}
+						
+					</div>
+
+					<div class="row">
+						<!-- Area Chart -->
+						<div class="col-xl-8 col-lg-7">
+							<div class="card shadow mb-4">
+									<!-- Card Header - Dropdown -->
+								<div class="card-body">
+									{% include 'polls/BMR_content.html' %}
+								</div>
+							</div>
+						  </div>
+					</div>
+					
+					
+					<!-- End of Main Content -->
+			
+					{% include 'polls/footer.html' %}
+					
+				  </div>
+				  <!-- End of Content Wrapper -->
+
+		
+		</div>
+
+		
+		
+	</body>
+</html>

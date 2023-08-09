@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  
+<!-- Mirrored from uigaint.com/demo/html/anfra/login-register-10/forget.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jul 2023 17:31:33 GMT -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Forgot your Account?</title>
+
+    <!-- Bootstrap CSS -->
+    {% load static %}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'polls/authorization/css/bootstrap.min.css' %}">
+    
+    <!-- External Css -->
+    <link rel="stylesheet" href="{% static 'polls/authorization/css/line-awesome.min.css' %}">
+
+    <!-- Custom Css --> 
+    <link rel="stylesheet" href="{% static 'polls/authorization/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'polls/authorization/css/theme-6.css' %}">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    
+
+    <!-- Favicon -->
+    <link rel="stylesheet" href="{% static 'polls/authorization/images/favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'polls/authorization/images/apple-touch-icon.png' %}">
+    <link rel="stylesheet" href="{% static 'polls/authorization/images/icon-72x72.png' %}">
+    <link rel="stylesheet" href="{% static 'polls/authorization/images/icon-114x114.png' %}">
+
+
+  </head>
+  <body>
+    
+    <div class="ugf-bg">
+      <div class="ugf-container-wrap">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-5 p-sm-0">
+              <div class="ugf-container">
+                <div class="logo">
+                  <a href="https://uigaint.com/demo/html/anfra/index.html"><img src="assets/images/logo-5.png" alt=""></a>
+                </div>
+                <div class="form-wrap">
+                  <h3>Reset password</h3>
+                  <p>We’ll send you an email with a link to reset the <br> password to your account</p>
+                  <form action="https://uigaint.com/demo/html/anfra/login-register-10/forget-complete.html">
+                    <div class="input-wrap">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="inputMail" required>
+                        <label for="inputMail">Email Address</label>
+                        <span class="input-icon"><i class="las la-envelope"></i></span>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn">Get Reset Link</button>
+                  </form>
+                  <div class="alternet-access">
+                    <p>Remembered your password? <a href="{% url 'login' %}">&nbsp; Login now!</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/countrySelect.min.js"></script>
+    
+    <script src="assets/js/custom.js"></script>
+  </body>
+
+<!-- Mirrored from uigaint.com/demo/html/anfra/login-register-10/forget.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jul 2023 17:31:33 GMT -->
+</html>

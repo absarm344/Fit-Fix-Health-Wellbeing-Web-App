@@ -1,0 +1,566 @@
+{% include "polls/header.html" %}
+
+{% load static %}
+<section class="site-slider bg-1">
+    <div class="text-slide-active owl-carousel">
+        <div class="single-slide">
+            <div class="container">
+                <div class="row bn_height align-items-center">
+                    <div class="col-lg-7">
+                        <div class="slide-content">
+                            <h1>It is time to balance your life & <span>Nourish your Soul!</span></h1>
+                            <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet,  no sea takimata sanctus est Lorem ipsum dolor sit amet no sea takimata sanctus.
+                            </p>
+                            <a href="#" class="btn-mr th-gradient pill">Read More</a>
+                            <a href="{% url 'ourteam' %}" class="btn-mr th-gradient2 pill">Contacts Us</a>
+                        </div><!-- end slider content -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- end single slider -->
+        <div class="single-slide">
+            <div class="container">
+                <div class="row bn_height align-items-center">
+                    <div class="col-lg-7">
+                        <div class="slide-content">
+                            <h1>It is time to balance your life & <span>Nourish your Soul!</span></h1>
+                            <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet,  no sea takimata sanctus est Lorem ipsum dolor sit amet no sea takimata sanctus.
+                            </p>
+                            <a href="#" class="btn-mr th-gradient pill">Read More</a>
+                            <a href="{% url 'ourteam' %}" class="btn-mr th-gradient2 pill">Contacts Us</a>
+                        </div><!-- end slider content -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- end single slider -->
+    </div>
+</section>
+
+<!-- health guide section -->
+
+<section class="health-guide">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 section-wrapper text-center">
+                <h3 class="section-title">Why FitFix?</h3>
+                <p>Fitfix is trying to provide a complete and well-thoughtout healthy scosystem which will allow you to set yourself on a life-changing journey.</p>
+            </div><!-- end section titile -->
+        </div>
+        <div class="row grid">
+
+                <div class="col-lg-4 col-md-6 text-center grid-item animation" data-animation="fadeInLeft" data-animation-delay="0.1s">
+                    <div class="single-health-block  d-flex flex-column align-items-center justify-content-center">
+                        <div class="icon-box">
+                            <i class="icofont">broccoli</i>
+                        </div>
+                        <h4>Healthy Diet Recommendation</h4>
+                        <P>To give you a healthy diet plan to follow for your transformation</P>
+                    </div>
+                </div><!-- end single health blog -->
+                <div class="col-lg-4 col-md-6 grid-item animation" data-animation="zoomIn" data-animation-delay="0.7s">
+                    <div class="single-health-block-big text-center">
+                        <img src="{%static 'polls/assets/images/all-img/health_add.png' %}" alt="">
+                    </div>
+                </div><!-- end single health blog -->
+                <div class="col-lg-4 col-md-6 text-center grid-item  animation" data-animation="fadeInRight" data-animation-delay="0.3s">
+                    <div class="single-health-block  d-flex flex-column align-items-center justify-content-center">
+                        <div class="icon-box">
+                            <i class="icofont">live_support</i>
+                        </div>
+                        <h4>Nutritonists on-call</h4>
+                        <P> Get yourself an appoinment with our highly-qualified & Experienced Nutritonists to get a more personalized diet and health tips with just one click.</P>
+                    </div>
+                </div><!-- end single health blog -->
+                <div class="col-lg-4 col-md-6 text-center grid-item animation" data-animation="fadeInLeft" data-animation-delay="0.2s">
+                    <div class="single-health-block  d-flex flex-column align-items-center justify-content-center">
+                        <div class="icon-box">
+                            <i class="icofont">runner</i>
+                        </div>
+                        <h4>Daily Exercises</h4>
+                        <P>FitFix is aiming to provide important and no-equipment cardiovascular exercises, which will help you to boost up your metabolism and achieve your goal even faster.</P>
+                    </div>
+                </div><!-- end single health blog -->
+                <div class="col-lg-4 col-md-6 text-center grid-item animation" data-animation="fadeInRight" data-animation-delay="0.0.4s">
+                    <div class="single-health-block  d-flex flex-column align-items-center justify-content-center">
+                        <div class="icon-box">
+                            <i class="icofont">food_basket</i>
+                        </div>
+                        <h4>Healthy Meal plans</h4>
+                        <P>Equip yourself with the important information from FitFix so you can set your fitness goals accordingly.</P>
+                    </div>
+                </div><!-- end single health blog -->
+                <div class="col-lg-4 col-md-6 text-center grid-item animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                    <div class="single-health-block  d-flex flex-column align-items-center justify-content-center">
+                        <div class="icon-box">
+                            <i class="icofont">medicine</i>
+                        </div>
+                        <h4>Vitamins Store</h4>
+                        <P>With time, we're planning to launch a specialized e-commerce store for the naturally-made & medically approved multi-Vitamins & Suppliments.</P>
+                    </div>
+                </div><!-- end single health blog -->
+        </div>
+    </div>
+</section>
+
+<!--
+ healty recipe section
+ -->
+<section class="helty-recipe">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center section-wrapper no-margin">
+                <h3 class="section-title">Healthy Recipes</h3>
+                <p>Forget about those old, bland and uncooked recipes. You can make a healthy and delicious for yourself if you keep the caories intake under control</p>
+            </div><!-- end section title -->
+            <div class="col-12">
+                <div class="healty_recipe_active owl-carousel animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+                    <div class="media align-items-center single-helathy-recipe">
+                        <div class="media-body">
+                            <h3><strong>Fruits Salad</strong></h3>
+                            <p>Get a bowl of tasty and juicy Fruit Salad. </p>
+                            <address>
+                                <strong>Ingredients</strong> <br>
+                                <a href="#">Apple</a>&cedil;<a href="#">Mango</a>&cedil; <a href="#">Grapes</a> <br>
+                                <a href="#">Strawberries</a>&cedil;<a href="#">Banana</a>&cedil; <a href="#">Avocado</a>
+                            </address>
+                        </div>
+                        <img class="mr-3 img-thumbnail rounded-circle" src="{% static 'polls/assets/images/all-img/rec2.png' %}" alt="Generic placeholder image">
+                    </div><!-- end single healthy recipe -->
+                    <div class="media align-items-center single-helathy-recipe">
+                        <div class="media-body">
+                            <h3><strong>Green Salad</strong></h3>
+                            <p>Veggies look good and delicious when they're in the Green Salad. </p>
+                            <address>
+                                <strong>Ingredients</strong> <br>
+                                <a href="#">Tomato</a>&cedil;<a href="#">Peas</a>&cedil; <a href="#">Spinach</a> <br>
+                                <a href="#">Lemon</a>&cedil;<a href="#">Avacado</a>&cedil; <a href="#">Cucumber</a>
+                            </address>
+                        </div>
+                        <img class="mr-3 img-thumbnail rounded-circle" src="{% static 'polls/assets/images/all-img/rec3.png' %}" alt="Generic placeholder image">
+                    </div><!-- end single healthy recipe -->
+                    <div class="media align-items-center single-helathy-recipe">
+                        <div class="media-body">
+                            <h3><strong>Cesar Salad</strong></h3>
+                            <p>Enjoy a complete meal with cesar's salad. </p>
+                            <address>
+                                <strong>Ingredients</strong> <br>
+                                <a href="#">Tomato</a>&cedil;<a href="#">Egg</a>&cedil; <a href="#">Chicken</a> <br>
+                                <a href="#">Iceberg</a>&cedil;<a href="#">Lemon juice</a>&cedil; <a href="#">Avocado</a>
+                            </address>
+                        </div>
+                        <img class="mr-3 img-thumbnail rounded-circle" src="{% static 'polls/assets/images/all-img/rec4.png' %}" alt="Generic placeholder image">
+                    </div><!-- end single healthy recipe -->
+                    <div class="media align-items-center single-helathy-recipe">
+                        <div class="media-body">
+                            <h3><strong>Fruits Salad</strong></h3>
+                            <p>Get a bowl of tasty and juicy Fruit Salad. </p>
+                            <address>
+                                <strong>Ingredients</strong> <br>
+                                <a href="#">Apple</a>&cedil;<a href="#">Mango</a>&cedil; <a href="#">Grapes</a> <br>
+                                <a href="#">Strawberries</a>&cedil;<a href="#">Banana</a>&cedil; <a href="#">Avocado</a>
+                            </address>
+                        </div>
+                        <img class="mr-3 img-thumbnail rounded-circle" src="{% static 'polls/assets/images/all-img/rec2.png' %}" alt="Generic placeholder image">
+                    </div><!-- end single healthy recipe -->
+                    <div class="media align-items-center single-helathy-recipe">
+                        <div class="media-body">
+                            <h3><strong>Green Salad</strong></h3>
+                            <p>Veggies look good and delicious when they're in the Green Salad. </p>
+                            <address>
+                                <strong>Ingredients</strong> <br>
+                                <a href="#">Tomato</a>&cedil;<a href="#">Peas</a>&cedil; <a href="#">Spinach</a> <br>
+                                <a href="#">Lemon</a>&cedil;<a href="#">Avacado</a>&cedil; <a href="#">Cucumber</a>
+                            </address>
+                        </div>
+                        <img class="mr-3 img-thumbnail rounded-circle" src="{% static 'polls/assets/images/all-img/rec3.png' %}" alt="Generic placeholder image">
+                    </div><!-- end single healthy recipe -->
+                    <div class="media align-items-center single-helathy-recipe">
+                        <div class="media-body">
+                            <h3><strong>Cesar Salad</strong></h3>
+                            <p>Enjoy a complete meal with cesar's salad. </p>
+                            <address>
+                                <strong>Ingredients</strong> <br>
+                                <a href="#">Tomato</a>&cedil;<a href="#">Egg</a>&cedil; <a href="#">Chicken</a> <br>
+                                <a href="#">Iceberg</a>&cedil;<a href="#">Lemon juice</a>&cedil; <a href="#">Avocado</a>
+                            </address>
+                        </div>
+                        <img class="mr-3 img-thumbnail rounded-circle" src="{% static 'polls/assets/images/all-img/rec4.png' %}" alt="Generic placeholder image">
+                    </div><!-- end single healthy recipe -->
+                </div><!-- end healthy recepie active -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--
+ Blog section Start
+ -->
+
+<section class="blog-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 section-wrapper text-center">
+                <h3 class="section-title">News Articles & Tips</h3>
+                <p>Read some of the interesting blogs solely based on health and nutritions to equip yourself with the important information about healthy lifestyle</p>
+            </div><!-- end section titile -->
+        </div>
+        <div class="row grid">
+            <div class="col-md-6 grid-item animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                <div class="single-blog">
+                    <div class="blog-thumb">
+                        <img src="{% static 'polls/assets/images/all-img/blog1.jpg' %}" alt="">
+                    </div><!-- end blog thumb -->
+                    <div class="blog-text">
+                        <ul class="post-meta d-flex justify-content-between">
+                            <li><a href="#"><i class="icofont">ui_calendar</i> 22/05/2021</a></li>
+                            <li><a href="#"><i class="icofont">user_alt_4</i> Tonmoy Khan</a></li>
+                        </ul>
+                        <h4><a href="#">What is a “Healthy” Food? The Answer
+                            Will Surprise You</a></h4>
+                        <p>At Integrative Nutrition, we teach the concept of Primary Food which is everything that nourishes your life [...]</p>
+                        <a href="#" class="blog-link">Reads More</a>
+                    </div>
+                </div>
+            </div><!-- end single blog -->
+            <div class="col-md-6 grid-item animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+                <div class="single-blog">
+                    <div class="blog-thumb">
+                        <img src="{% static 'polls/assets/images/all-img/blog2.jpg' %}" alt="">
+                    </div><!-- end blog thumb -->
+                    <div class="blog-text">
+                        <ul class="post-meta d-flex justify-content-between">
+                            <li><a href="#"><i class="icofont">ui_calendar</i> 7/11/2020</a></li>
+                            <li><a href="#"><i class="icofont">user_alt_4</i> Kristian</a></li>
+                        </ul>
+                        <h4><a href="#">5 Simple & Healthy Gluten Free Cookie
+                            Will Surprise You</a></h4>
+                        <p>At Integrative Nutrition, we teach the concept of Primary Food which is everything that nourishes your life [...]</p>
+                        <a href="#" class="blog-link">Reads More</a>
+                    </div>
+                </div>
+            </div><!-- end single blog -->
+            <div class="col-md-6 grid-item animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                <div class="single-blog">
+                    <div class="blog-thumb">
+                        <img src="{% static 'polls/assets/images/all-img/blog3.jpg' %}" alt="">
+                    </div><!-- end blog thumb -->
+                    <div class="blog-text">
+                        <ul class="post-meta d-flex justify-content-between">
+                            <li><a href="#"><i class="icofont">ui_calendar</i> 14/01/2021</a></li>
+                            <li><a href="#"><i class="icofont">user_alt_4</i> Alex Jones</a></li>
+                        </ul>
+                        <h4><a href="#">6 Tip To Make Paleo Eating Easy? Answer
+                            Will Surprise You</a></h4>
+                        <p>At Integrative Nutrition, we teach the concept of Primary Food which is everything that nourishes your life [...]</p>
+                        <a href="#" class="blog-link">Reads More</a>
+                    </div>
+                </div>
+            </div><!-- end single blog -->
+            <div class="col-md-6 grid-item animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                <div class="single-blog">
+                    <div class="blog-thumb">
+                        <img src="{% static 'polls/assets/images/all-img/blog4.jpg' %}" alt="">
+                    </div><!-- end blog thumb -->
+                    <div class="blog-text">
+                        <ul class="post-meta d-flex justify-content-between">
+                            <li><a href="#"><i class="icofont">ui_calendar</i> 09/09/2019</a></li>
+                            <li><a href="#"><i class="icofont">user_alt_4</i> Tracy MCckenzie</a></li>
+                        </ul>
+                        <h4><a href="#">What is a “Healthy” GYM? The Answer Will
+                            Surprise You</a></h4>
+                        <p>At Integrative Nutrition, we teach the concept of Primary Food which is everything that nourishes your life [...]</p>
+                        <a href="#" class="blog-link">Reads More</a>
+                    </div>
+                </div>
+            </div><!-- end single blog -->
+        </div>
+    </div>
+</section>
+
+<!--
+ call to action start
+ -->
+
+<section class="call-to-action">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-7 text-center text-md-left">
+                <h3>The fastest way to loss weight in natural way!</h3>
+                <p>Get consulted by our highly qualified Nutritionist</p>
+            </div>
+            <div class="col-md-5 text-md-right text-center">
+                <a href="{% url 'ourteam' %}">GET YOURSELF AN APPOINTMENT!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+ Promotion Area Start
+ -->
+
+<section class="promotion-area">
+    <div class="appoinmentshpae-1">
+        <div class="innershape"></div>
+    </div><!-- shape2 -->
+    <div class="appoinmentshpae-2">
+        <div class="innershape"></div>
+    </div><!-- shape2 -->
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 section-wrapper no-margin text-md-center">
+            <h3 class="section-title">Our Goal</h3>
+                <p>FitFix is here for a long run and just like you, we're also setting some goals for ourselves</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-sm-6 animation" data-animation="fadeInDown" data-animation-delay="0.1s">
+                        <div class="media single-cosunter-block">
+                            <img class="mr-3" src="{% static 'polls/assets/images/all-img/counter_icon2.png' %}" alt="">
+                            <div class="media-body">
+                                <h5 class="mt-0 counter"><strong>1000</strong></h5>
+                                <p>New user</p>
+                            </div>
+                        </div>
+                    </div><!-- end single -->
+                    <div class="col-sm-6 animation" data-animation="fadeInDown" data-animation-delay="0.1s">
+                        <div class="media single-cosunter-block">
+                            <img class="mr-3" src="{% static 'polls/assets/images/all-img/counter_icon1.png' %}" alt="">
+                            <div class="media-body">
+                                <h5 class="mt-0 counter"><strong>1200</strong></h5>
+                                <p>Different Foods for Recommendation</p>
+                            </div>
+                        </div>
+                    </div><!-- end single -->
+                    <div class="col-sm-6 animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                        <div class="media single-cosunter-block">
+                            <img class="mr-3" src="{% static 'polls/assets/images/all-img/counter_icon4.png' %}" alt="">
+                            <div class="media-body">
+                                <h5 class="mt-0 counter"><strong>20</strong></h5>
+                                <p>Experienced Nutritonists</p>
+                            </div>
+                        </div>
+                    </div><!-- end single -->
+                    <div class="col-sm-6 animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                        <div class="media single-cosunter-block">
+                            <img class="mr-3" src="{% static 'polls/assets/images/all-img/counter_icon3.png' %}" alt="">
+                            <div class="media-body">
+                                <h5 class="mt-0 counter"><strong>30</strong></h5>
+                                <p>Days Of Workout exercises</p>
+                            </div>
+                        </div>
+                    </div><!-- end single -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--
+ Gallery Section start
+ -->
+<section class="gallery-section">
+    <div class="container-fluid custom-container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 section-wrapper text-center">
+                <h3 class="section-title">Our Gallary Image</h3>
+                <p>Lorem ipsum dolor sit amet, sed diam voluptua.  sed diam nonumy eirmod tempor .</p>
+            </div><!-- end section titile -->
+        </div><!-- end row -->
+        <div class="grid row galgird">
+            <div class="col-lg-2 col-md-6 grid-item">
+                <div class="single-gall">
+                    <div class="gallery-bg" style="background-image: url({% static 'polls/assets/images/all-img/gal1.jpg' %})"></div>
+                    <div class="gallery-hover d-flex flex-row justify-content-center align-items-center">
+                        <a href="#"><i class="icofont">link</i></a>
+                        <a href="{% static 'polls/assets/images/all-img/gal1.jpg' %}" class="img-popup"><i class="icofont">search_2</i></a>
+                    </div>
+                </div>
+            </div><!-- end single -->
+            <div class="col-lg-3 col-md-6 grid-item">
+                <div class="single-gall">
+                    <div class="gallery-bg" style="background-image: url({% static 'polls/assets/images/all-img/gal2.jpg' %})"></div>
+                    <div class="gallery-hover d-flex flex-row justify-content-center align-items-center">
+                        <a href="#"><i class="icofont">link</i></a>
+                        <a href="{% static 'polls/assets/images/all-img/gal2.jpg' %}" class="img-popup"><i class="icofont">search_2</i></a>
+                    </div>
+                </div>
+            </div><!-- end single -->
+            <div class="col-lg-4 col-md-6 grid-item">
+                <div class="single-gall">
+                    <div class="gallery-bg" style="background-image: url({% static 'polls/assets/images/all-img/gal3.jpg' %})"></div>
+                    <div class="gallery-hover d-flex flex-row justify-content-center align-items-center">
+                        <a href="#"><i class="icofont">link</i></a>
+                        <a href="{% static 'polls/assets/images/all-img/gal3.jpg' %}" class="img-popup"><i class="icofont">search_2</i></a>
+                    </div>
+                </div>
+            </div><!-- end single -->
+            <div class="col-lg-4 col-md-6 grid-item">
+                <div class="single-gall">
+                    <div class="gallery-bg" style="background-image: url({% static 'polls/assets/images/all-img/gal4.jpg' %})"></div>
+                    <div class="gallery-hover d-flex flex-row justify-content-center align-items-center">
+                        <a href="#"><i class="icofont">link</i></a>
+                        <a href="{% static 'polls/assets/images/all-img/gal4.jpg' %}" class="img-popup"><i class="icofont">search_2</i></a>
+                    </div>
+                </div>
+            </div><!-- end single -->
+            <div class="col-lg-4 col-md-6 grid-item">
+                <div class="single-gall">
+                    <div class="gallery-bg" style="background-image: url({% static 'polls/assets/images/all-img/gal5.jpg' %})"></div>
+                    <div class="gallery-hover d-flex flex-row justify-content-center align-items-center">
+                        <a href="#"><i class="icofont">link</i></a>
+                        <a href="{% static 'polls/assets/images/all-img/gal5.jpg' %}" class="img-popup"><i class="icofont">search_2</i></a>
+                    </div>
+                </div>
+            </div><!-- end single -->
+            <div class="col-lg-3 col-md-6 grid-item">
+                <div class="single-gall">
+                    <div class="gallery-bg" style="background-image: url({% static 'polls/assets/images/all-img/gal6.jpg' %})"></div>
+                    <div class="gallery-hover d-flex flex-row justify-content-center align-items-center">
+                        <a href="#"><i class="icofont">link</i></a>
+                        <a href="{% static 'polls/assets/images/all-img/gal6.jpg' %}" class="img-popup"><i class="icofont">search_2</i></a>
+                    </div>
+                </div>
+            </div><!-- end single -->
+            <div class="col-lg-2 col-md-6 grid-item">
+                <div class="single-gall">
+                    <div class="gallery-bg" style="background-image: url({% static 'polls/assets/images/all-img/gal7.jpg' %}"></div>
+                    <div class="gallery-hover d-flex flex-row justify-content-center align-items-center">
+                        <a href="#"><i class="icofont">link</i></a>
+                        <a href="{% static 'polls/assets/images/all-img/gal7.jpg' %}" class="img-popup"><i class="icofont">search_2</i></a>
+                    </div>
+                </div>
+            </div><!-- end single -->
+            <div class="col-lg-3 col-md-6 grid-item">
+                <div class="single-gall">
+                    <div class="gallery-bg" style="background-image: url({% static 'polls/assets/images/all-img/gal8.jpg' %})"></div>
+                    <div class="gallery-hover d-flex flex-row justify-content-center align-items-center">
+                        <a href="#"><i class="icofont">link</i></a>
+                        <a href="{% static 'polls/assets/images/all-img/gal8.jpg' %}" class="img-popup"><i class="icofont">search_2</i></a>
+                    </div>
+                </div>
+            </div><!-- end single -->
+
+        </div>
+    </div>
+</section>
+
+<!--
+ client testimonials section
+ -->
+<section class="client-review section-padding">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-7">
+                <div class="row">
+                    <h3 class="section-title xs col-12">Clients Testimonials</h3>
+                    <div class="col-md-2 align-self-start">
+                        <div class="client-minithumb-active">
+                            <div class="single-mini-thumb"><img src="{% static 'polls/assets/images/all-img/client_reivewsm1.jpg' %}" alt="" class="img-thumbnail rounded-circle"></div><!-- end single mini thumb -->
+                            <div class="single-mini-thumb"><img src="{% static 'polls/assets/images/all-img/client_reivewsm2.jpg' %}" alt="" class="img-thumbnail rounded-circle"></div><!-- end single mini thumb -->
+                            <div class="single-mini-thumb"><img src="{% static 'polls/assets/images/all-img/client_reivewsm3.jpg' %}" alt="" class="img-thumbnail rounded-circle"></div><!-- end single mini thumb -->
+                            <div class="single-mini-thumb"><img src="{% static 'polls/assets/images/all-img/client_reivewsm4.jpg' %}" alt="" class="img-thumbnail rounded-circle"></div><!-- end single mini thumb -->
+                            <div class="single-mini-thumb"><img src="{% static 'polls/assets/images/all-img/client_reivewsm5.jpg' %}" alt="" class="img-thumbnail rounded-circle"></div><!-- end single mini thumb -->
+                        </div>  
+                    </div><!-- client review mini thumb -->
+                    <div class="col-md-10">
+                        <div class="review_text-active">
+                            <div class="single-review-text d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="client-large-thumb text-center">
+                                    <img src="{% static 'polls/assets/images/all-img/clientlg1.jpg' %}"   class="img-thumbnail rounded-circle" alt="">
+                                </div>
+                            <p>Thank you Fitfix for providing such a healthy ecosystem.</p>
+                                <h4>Qamar khan</h4>
+                                <span>Student</span>
+                            </div><!-- end single review text -->
+                            <div class="single-review-text d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="client-large-thumb text-center">
+                                    <img src="{% static 'polls/assets/images/all-img/client_reivewsm2.jpg' %}"   class="img-thumbnail rounded-circle" alt="">
+                                </div>
+                                <p>I love FitFix and I can't Wait to try my new fitness journey</p>
+                                <h4>Kiran</h4>
+                                <span>Consultant</span>
+                            </div><!-- end single review text -->
+                            <div class="single-review-text d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="client-large-thumb text-center">
+                                    <img src="{% static 'polls/assets/images/all-img/client_reivewsm3.jpg' %}"  class="img-thumbnail rounded-circle" alt="">
+                                </div>
+                                <p>I think FitFix is doing a great job in establishing a new bridge between client and the Nutritonists.</p>
+                                <h4>Dr. Akbar</h4>
+                                <span>Nutritionist</span>
+                            </div><!-- end single review text -->
+                        </div><!-- end review text active -->
+                    </div><!-- client review text -->
+                </div>
+            </div><!-- end review -->
+            <div class="col-lg-4 bmi-calcalutaer offset-lg-1">
+                <h3 class="section-title xs">BMI Calculator</h3>
+                <form>
+                    <h4>height</h4>
+                    <div class="form-group row">
+                        <label for="ft" class="col-sm-2 col-form-label">FT</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="Enter your height in feets" class="form-control" id="ft">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="in" class="col-sm-2 col-form-label">IN</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="Enter your height in inches" class="form-control" id="in">
+                        </div>
+                    </div>
+                    <h4>weight</h4>
+                    <div class="form-group row">
+                        <label for="lbs" class="col-sm-2 col-form-label">LBS</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="Enter your weight in pounds" class="form-control" id="lbs">
+                        </div>
+                    </div>
+                    <div class="text-right"><button type="submit"> submit</button></div>
+                </form>
+            </div><!-- end messurment -->
+        </div>
+    </div>
+</section>
+
+<!--
+ Our Patners Start
+ -->
+
+
+<section class="partners-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 section-wrapper text-center">
+                <h3 class="section-title">Our Partners</h3>
+                <p>We're currently working on our own as a startup but in the future, we're aiming to partner up with different brands to expand our services even more</p>
+            </div><!-- end section titile -->
+            <div class="col-12">
+                <div class="brands-active owl-carousel">
+                    <div class="single-brands">
+                        <img src="{% static 'polls/assets/images/all-img/brands-1.png' %}" alt="">
+                    </div><!-- end single brands -->
+                    <div class="single-brands">
+                        <img src="{% static 'polls/assets/images/all-img/brands-3.png' %}" alt="">
+                    </div><!-- end single brands -->
+                    <div class="single-brands">
+                        <img src="{% static 'polls/assets/images/all-img/brands-4.png' %}" alt="">
+                    </div><!-- end single brands -->
+                    <div class="single-brands">
+                        <img src="{% static 'polls/assets/images/all-img/brands-1.png' %}" alt="">
+                    </div><!-- end single brands -->
+                    <div class="single-brands">
+                        <img src="{% static 'polls/assets/images/all-img/brands-3.png' %}" alt="">
+                    </div><!-- end single brands -->
+                    <div class="single-brands">
+                        <img src="{% static 'polls/assets/images/all-img/brands-4.png' %}" alt="">
+                    </div><!-- end single brands -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "polls/footer2.html" %}

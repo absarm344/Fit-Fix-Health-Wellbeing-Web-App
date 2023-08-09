@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Welcome to FitFix</title>
+
+    {% load static %}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'Nutritionist_side/authorization/css/bootstrap.min.css' %}">
+    
+    <!-- External Css -->
+    <link rel="stylesheet" href="{% static 'Nutritionist_side/authorization/css/line-awesome.min.css' %}">
+
+    <!-- Custom Css --> 
+    <link rel="stylesheet" href="{% static 'Nutritionist_side/authorization/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'Nutritionist_side/authorization/css/theme-6.css' %}">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    
+
+    <!-- Favicon -->
+    <link rel="stylesheet" href="{% static 'Nutritionist_side/authorization/images/favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'Nutritionist_side/authorization/images/apple-touch-icon.png' %}">
+    <link rel="stylesheet" href="{% static 'Nutritionist_side/authorization/images/icon-72x72.png' %}">
+    <link rel="stylesheet" href="{% static 'Nutritionist_side/authorization/images/icon-114x114.png' %}">
+
+
+  </head>
+  <body>
+    
+    <div class="ugf-bg">
+      <div class="ugf-container-wrap">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-5 p-sm-0">
+              <div class="ugf-container">
+                <div class="logo">
+                  <a href=""><img src="{% static 'polls/authorization/images/fitfix3.png' %}" alt=""></a>
+                </div>
+                <div class="form-wrap">
+                  <h2>  Welcome to FitFix</h2>
+                  <h3>Create an account</h3>
+                  {% if messages %}
+                    {% for message in messages %}
+                      <div class="alert alert-danger">{{ message }}</div>
+                    {% endfor %}
+                  {% endif %}
+                  <form method="POST" action="{% url 'signupSubmitNut' %}">
+                    {% csrf_token %}
+                    <div class="input-wrap">
+                      <div class="form-group">
+                        <input type="text" name="fname" class="form-control" id="inputText" required>
+                        <label for="inputText">Full Name</label>
+                        <span class="input-icon"><i class="las la-user"></i></span>
+                  
+                      </div>
+                      <div class="form-group">
+                        <input type="text" name="email" class="form-control" id="inputMail" required>
+                        <label for="inputMail">Email Address</label>
+                        <span class="input-icon"><i class="las la-envelope"></i></span>
+                      </div>
+                      <div class="form-group">
+                        <input type="number" name="phone" class="form-control" id="inputphone" required>
+                        <label for="inputMail">Phone number</label>
+                        <span class="input-icon"><i class="las la-phone"></i></span>
+                      </div>
+                      <div class="form-group">
+                        <input type="password" name="password1" class="form-control" id="inputPass" required>
+                        <label for="inputPass">Password</label>
+                        <span class="input-icon"><i class="las la-lock"></i></span>
+                      </div>
+                      <div class="form-group">
+                        <input type="password" name="password2" class="form-control" id="inputPass2" required>
+                        <label for="inputPass2">Confirm Password</label>
+                        <span class="input-icon"><i class="las la-lock"></i></span>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn">Register Account</button>
+                  </form>
+                  <span class="terms">By clicking here and continuing, <span>I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</span></span>
+                  <div class="alternet-access">
+                    <p>Already have an account? <a href="{% url 'loginNut' %}">&nbsp; Log in now!</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+    <script src=" {% static 'Nutritionist_side/authorization/js/jquery.min.js' %}"></script>
+    <script src=" {% static 'Nutritionist_side/authorization/js/popper.min.js' %}"></script>
+    <script src=" {% static 'Nutritionist_side/authorization/js/bootstrap.min.js' %}"></script>
+    <script src=" {% static 'Nutritionist_side/authorization/js/owl.carousel.min.js' %}"></script>
+    <script src=" {% static 'Nutritionist_side/authorization/js/countrySelect.min.js' %}"></script>
+    <script src=" {% static 'Nutritionist_side/authorization/js/custom.js' %}"></script>
+
+
+  </body>
+
+<!-- Mirrored from uigaint.com/demo/html/anfra/login-register-10/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jul 2023 17:30:54 GMT -->
+</html>
